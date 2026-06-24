@@ -4,6 +4,7 @@ import {
   Box,
   Button,
   Container,
+  IconButton,
   Stack,
   Toolbar,
   Typography,
@@ -12,8 +13,11 @@ import {
 } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search'
 import HomeIcon from '@mui/icons-material/Home'
+import GitHubIcon from '@mui/icons-material/GitHub'
 import type { ReactNode } from 'react'
 import type { SummaryData } from '../types'
+
+const repositoryUrl = 'https://github.com/Linear27/gaokao-guide-2026-physics'
 
 type AppShellProps = {
   summary: SummaryData
@@ -57,6 +61,15 @@ export function AppShell({ summary, children }: AppShellProps) {
             >
               查计划
             </Button>
+            {compact ? (
+              <IconButton aria-label="GitHub 仓库" color="inherit" href={repositoryUrl} target="_blank">
+                <GitHubIcon />
+              </IconButton>
+            ) : (
+              <Button color="inherit" href={repositoryUrl} startIcon={<GitHubIcon />} target="_blank" variant="text">
+                GitHub
+              </Button>
+            )}
           </Stack>
         </Toolbar>
       </AppBar>

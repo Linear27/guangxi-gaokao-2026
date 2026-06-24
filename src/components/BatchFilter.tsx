@@ -14,29 +14,26 @@ import type { SearchFilters } from '../data/derive'
 
 type BatchFilterProps = {
   filters: SearchFilters
+  keywordValue: string
   batches: Batch[]
   schools: School[]
   majorGroups: string[]
   firstSubjects: string[]
   secondSubjects: string[]
   onChange: (filters: SearchFilters) => void
-}
-
-const emptyFilters: SearchFilters = {
-  keyword: '',
-  batchName: '',
-  schoolCode: '',
-  majorGroupCode: '',
-  firstSubject: '',
-  secondSubject: '',
+  onKeywordChange: (keyword: string) => void
+  onReset: () => void
 }
 
 export function BatchFilter({
   batches,
   filters,
   firstSubjects,
+  keywordValue,
   majorGroups,
   onChange,
+  onKeywordChange,
+  onReset,
   schools,
   secondSubjects,
 }: BatchFilterProps) {
@@ -46,9 +43,9 @@ export function BatchFilter({
     <Stack direction={{ xs: 'column', md: 'row' }} spacing={2}>
       <TextField
         label="关键词"
-        onChange={(event) => onChange({ ...filters, keyword: event.target.value })}
+        onChange={(event) => onKeywordChange(event.target.value)}
         placeholder="院校、专业、备注"
-        value={filters.keyword}
+        value={keywordValue}
       />
       <FormControl sx={{ minWidth: 220 }}>
         <InputLabel id="batch-filter-label">批次</InputLabel>
@@ -124,7 +121,7 @@ export function BatchFilter({
       </FormControl>
       <Button
         color="inherit"
-        onClick={() => onChange(emptyFilters)}
+        onClick={onReset}
         startIcon={<RestartAltIcon />}
         sx={{ alignSelf: { xs: 'stretch', md: 'center' } }}
         variant="outlined"

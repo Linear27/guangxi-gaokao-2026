@@ -5,7 +5,7 @@ import { ProgramGrid } from '../components/ProgramGrid'
 import { LoadingScreen } from '../App'
 import { loadAdmissionLines2025, loadBatchPayload } from '../data/loadSiteData'
 import type { AdmissionLine, BatchPayload } from '../types'
-import { buildAdmissionLineIndex, formatNumber, isTrack, searchRoute } from '../data/derive'
+import { buildAdmissionLineIndex, formatNumber, isTrack, searchRoute, trackLabel } from '../data/derive'
 
 export function BatchPage() {
   const { batchSlug, track } = useParams()
@@ -72,7 +72,7 @@ export function BatchPage() {
     <Stack spacing={2}>
       <Stack spacing={0.5}>
         <Typography component="h1" variant="h1">
-          {payload.batch.batchName}
+          {trackLabel(activeTrack)} · {payload.batch.batchName}
         </Typography>
         <Typography color="text.secondary">
           当前显示 {formatNumber(filteredPrograms.length)} 条，批次总量 {formatNumber(programs.length)} 条。

@@ -1,6 +1,6 @@
 import { Card, CardContent, Chip, Stack, Typography } from '@mui/material'
 import type { School } from '../types'
-import { formatNumber } from '../data/derive'
+import { formatNumber, trackLabel } from '../data/derive'
 
 type SchoolSummaryProps = {
   school: School
@@ -14,9 +14,12 @@ export function SchoolSummary({ batchNames, school }: SchoolSummaryProps) {
         <Stack spacing={2}>
           <Stack direction={{ xs: 'column', md: 'row' }} spacing={1} sx={{ justifyContent: 'space-between' }}>
             <div>
-              <Typography color="text.secondary" variant="body2">
-                {school.schoolCode}
-              </Typography>
+              <Stack direction="row" spacing={1} sx={{ alignItems: 'center', mb: 0.5 }}>
+                <Typography color="text.secondary" variant="body2">
+                  {school.schoolCode}
+                </Typography>
+                <Chip color="primary" label={`${trackLabel(school.track)}招生计划`} size="small" variant="outlined" />
+              </Stack>
               <Typography component="h1" variant="h1">
                 {school.schoolName}
               </Typography>

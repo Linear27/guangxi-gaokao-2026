@@ -1,15 +1,18 @@
-import { lazy, Suspense, useDeferredValue, useEffect, useMemo, useState, useTransition } from 'react'
-import { Navigate, useParams, useSearchParams } from 'react-router-dom'
+import { lazy, Suspense, useEffect, useMemo, useState, useTransition } from 'react'
+import { Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Alert, Box, Card, CardContent, Stack, Typography } from '@mui/material'
 import { BatchFilter } from '../components/BatchFilter'
+import { TrackSwitch } from '../components/TrackSwitch'
 import { loadAdmissionLines2025, loadProgramsData, loadSchoolIndexData } from '../data/loadSiteData'
 import type { AdmissionLine, Program, School, SummaryData, Track } from '../types'
 import {
   applyIndexedSearchFilters,
   buildAdmissionLineIndex,
   buildProgramSearchIndex,
+  filtersWithKeyword,
   formatNumber,
   isTrack,
+  searchParamsWithKeyword,
   searchRoute,
   trackLabel,
   type SearchFilters,
@@ -32,13 +35,17 @@ const initialFilters: SearchFilters = {
   secondSubject: '',
 }
 
+const keywordDebounceMs = 300
+
 export function SearchPage({ summaries }: SearchPageProps) {
   const params = useParams()
   const track = params.track
   const [searchParams] = useSearchParams()
+  const location = useLocation()
+  const navigate = useNavigate()
   const keywordParam = searchParams.get('keyword')?.trim() ?? ''
+  const [draftKeyword, setDraftKeyword] = useState(keywordParam)
   const [filters, setFilters] = useState<SearchFilters>({ ...initialFilters, keyword: keywordParam })
-  const deferredFilters = useDeferredValue(filters)
   const [, startTransition] = useTransition()
   const [schools, setSchools] = useState<School[] | null>(null)
   const [programs, setPrograms] = useState<Program[]>([])
@@ -84,10 +91,27 @@ export function SearchPage({ summaries }: SearchPageProps) {
   }, [activeTrack])
 
   useEffect(() => {
+    setDraftKeyword(keywordParam)
     setFilters((currentFilters) =>
       currentFilters.keyword === keywordParam ? currentFilters : { ...currentFilters, keyword: keywordParam },
     )
   }, [keywordParam])
+
+  useEffect(() => {
+    const normalizedKeyword = draftKeyword.trim()
+    if (normalizedKeyword === filters.keyword) return
+
+    const timeoutId = window.setTimeout(() => {
+      setFilters((currentFilters) => filtersWithKeyword(currentFilters, normalizedKeyword))
+      const nextSearch = searchParamsWithKeyword(location.search, normalizedKeyword)
+      const currentSearch = location.search || ''
+      if (nextSearch !== currentSearch) {
+        navigate(`${location.pathname}${nextSearch}`, { replace: true })
+      }
+    }, keywordDebounceMs)
+
+    return () => window.clearTimeout(timeoutId)
+  }, [draftKeyword, filters.keyword, location.pathname, location.search, navigate, startTransition])
 
   const majorGroups = summary.filterOptions.majorGroups
   const firstSubjects = summary.filterOptions.firstSubjects
@@ -95,17 +119,32 @@ export function SearchPage({ summaries }: SearchPageProps) {
   const searchIndex = useMemo(() => buildProgramSearchIndex(programs), [programs])
   const admissionLineIndex = useMemo(() => buildAdmissionLineIndex(admissionLines), [admissionLines])
   const filteredPrograms = useMemo(
-    () => applyIndexedSearchFilters(searchIndex, deferredFilters),
-    [deferredFilters, searchIndex],
+    () => applyIndexedSearchFilters(searchIndex, filters),
+    [filters, searchIndex],
   )
   const visibleProgramCount = programs.length > 0 ? filteredPrograms.length : summary.counts.programs
 
   if (!activeTrack) return <Navigate replace to={searchRoute('physics')} />
   if (error) return <Alert severity="error">{error}</Alert>
 
+  const handleFilterChange = (nextFilters: SearchFilters) => {
+    startTransition(() => setFilters(nextFilters))
+  }
+
+  const handleReset = () => {
+    setDraftKeyword('')
+    setFilters(initialFilters)
+    const nextSearch = searchParamsWithKeyword(location.search, '')
+    const currentSearch = location.search || ''
+    if (nextSearch !== currentSearch) {
+      navigate(`${location.pathname}${nextSearch}`, { replace: true })
+    }
+  }
+
   return (
     <Stack spacing={2}>
       <Stack spacing={0.5}>
+        <TrackSwitch track={activeTrack} />
         <Typography component="h1" variant="h1">
           {trackLabel(activeTrack)}招生计划检索
         </Typography>
@@ -119,8 +158,11 @@ export function SearchPage({ summaries }: SearchPageProps) {
             batches={summary.batches}
             filters={filters}
             firstSubjects={firstSubjects}
+            keywordValue={draftKeyword}
             majorGroups={majorGroups}
-            onChange={(nextFilters) => startTransition(() => setFilters(nextFilters))}
+            onChange={handleFilterChange}
+            onKeywordChange={setDraftKeyword}
+            onReset={handleReset}
             schools={schools ?? []}
             secondSubjects={secondSubjects}
           />

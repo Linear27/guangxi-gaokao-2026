@@ -64,6 +64,40 @@ export function searchRoute(track: Track, keyword?: string): string {
   return keyword ? `${base}?keyword=${encodeURIComponent(keyword)}` : base
 }
 
+export function searchParamsWithKeyword(currentSearch: string, keyword: string): string {
+  const searchParams = new URLSearchParams(currentSearch)
+  const normalizedKeyword = keyword.trim()
+  if (normalizedKeyword) {
+    searchParams.set('keyword', normalizedKeyword)
+  } else {
+    searchParams.delete('keyword')
+  }
+  const nextSearch = searchParams.toString()
+  return nextSearch ? `?${nextSearch}` : ''
+}
+
+export function filtersWithKeyword(filters: SearchFilters, keyword: string): SearchFilters {
+  return { ...filters, keyword: keyword.trim() }
+}
+
+export function homeRoute(track: Track): string {
+  return `/?track=${track}`
+}
+
+export function routeForTrack(pathname: string, search: string, nextTrack: Track): string {
+  const searchParams = new URLSearchParams(search)
+  const segments = pathname.split('/').filter(Boolean)
+  const currentTrack = isTrack(segments[0]) ? segments[0] : null
+
+  if (!currentTrack) {
+    searchParams.set('track', nextTrack)
+    return `/?${searchParams.toString()}`
+  }
+
+  segments[0] = nextTrack
+  return `/${segments.map((segment) => encodeURIComponent(segment)).join('/')}${search}`
+}
+
 export function legacyRouteFor(pathname: string): string {
   if (pathname === '/search') return '/physics/search'
   if (pathname.startsWith('/schools/')) return `/physics${pathname}`

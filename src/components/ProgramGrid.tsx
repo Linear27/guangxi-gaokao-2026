@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import { Box, Link, Tooltip, Typography } from '@mui/material'
-import { DataGrid, type GridColDef } from '@mui/x-data-grid'
+import { DataGrid, type GridColDef, type GridSortDirection } from '@mui/x-data-grid'
 import type { Program, ProgramRow } from '../types'
 import { type AdmissionLineIndex, formatNumber, formatPlanCount, formatTuition, toRows } from '../data/derive'
 
@@ -10,6 +10,9 @@ type ProgramGridProps = {
   height?: number
   admissionLineIndex?: AdmissionLineIndex
 }
+
+const historyScoreSortOrder: readonly GridSortDirection[] = ['desc', 'asc', null]
+const historyRankSortOrder: readonly GridSortDirection[] = ['asc', 'desc', null]
 
 const columns: GridColDef<ProgramRow>[] = [
   {
@@ -76,6 +79,8 @@ const columns: GridColDef<ProgramRow>[] = [
     description: '2025 年同批次同院校专业组投档最低分，仅供参考。',
     valueGetter: (_value, row) => row.history2025?.minScore ?? null,
     valueFormatter: (value) => formatNumber(value as number | null),
+    sortingOrder: historyScoreSortOrder,
+    getSortComparator: (sortDirection) => nullableNumberComparator(sortDirection),
   },
   {
     field: 'history2025Rank',
@@ -84,6 +89,8 @@ const columns: GridColDef<ProgramRow>[] = [
     description: '2025 年同批次同院校专业组投档最低分对应位次，仅供参考。',
     valueGetter: (_value, row) => row.history2025?.rank ?? null,
     valueFormatter: (value) => formatNumber(value as number | null),
+    sortingOrder: historyRankSortOrder,
+    getSortComparator: (sortDirection) => nullableNumberComparator(sortDirection),
   },
   {
     field: 'durationYears',
@@ -153,4 +160,17 @@ export function ProgramGrid({ programs, height = 640, admissionLineIndex }: Prog
       <DataGrid columns={columns} rows={rows} />
     </Box>
   )
+}
+
+function nullableNumberComparator(sortDirection: GridSortDirection) {
+  return (left: unknown, right: unknown): number => {
+    const leftNumber = typeof left === 'number' ? left : null
+    const rightNumber = typeof right === 'number' ? right : null
+
+    if (leftNumber === null && rightNumber === null) return 0
+    if (leftNumber === null) return 1
+    if (rightNumber === null) return -1
+
+    return sortDirection === 'desc' ? rightNumber - leftNumber : leftNumber - rightNumber
+  }
 }

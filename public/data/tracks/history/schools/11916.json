@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11916",
+    "schoolName": "重庆电力高等专科学校",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-61373333",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11916",
+      "schoolName": "重庆电力高等专科学校",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-61373333",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "电厂化学与环保技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 7458,
+      "campus": null,
+      "remarks": "3年，7458元/年，大一、大二在潼南校区就读，大三在九龙坡校区就读，不招色盲考生",
+      "pdfPage": 327,
+      "bookPage": 277
+    }
+  ]
+}

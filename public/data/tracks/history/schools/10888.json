@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10888",
+    "schoolName": "江西医学高等专科学校",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江西省上饶市",
+    "consultPhone": "0793-7089428",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "10888",
+      "schoolName": "江西医学高等专科学校",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江西省上饶市",
+      "consultPhone": "0793-7089428",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 3915,
+      "campus": null,
+      "remarks": "3 年,3915 元/年,不招色盲、色弱及单色识别不全考生;女生身高低于 156cm 慎报,男生身高低于 165cm 慎报",
+      "pdfPage": 319,
+      "bookPage": 269
+    }
+  ]
+}

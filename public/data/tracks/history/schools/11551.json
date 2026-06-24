@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11551",
+    "schoolName": "重庆科技大学",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-65026868",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11551",
+      "schoolName": "重庆科技大学",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-65026868",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "国际经济与贸易",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 5600,
+      "campus": null,
+      "remarks": "4 年,5600 元/年,在智慧创新中心办学",
+      "pdfPage": 238,
+      "bookPage": 188
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11551",
+      "schoolName": "重庆科技大学",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-65026868",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "劳动与社会保障",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 5600,
+      "campus": null,
+      "remarks": "4 年,5600 元/年,在智慧创新中心办学",
+      "pdfPage": 238,
+      "bookPage": 188
+    }
+  ]
+}

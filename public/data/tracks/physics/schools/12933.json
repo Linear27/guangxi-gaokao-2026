@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12933",
+    "schoolName": "江西电力职业技术学院",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "江西省南昌市",
+    "consultPhone": "0791-83899638",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12933",
+      "schoolName": "江西电力职业技术学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-83899638",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "发电厂及电力系统",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,单色识别不全者慎报",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12933",
+      "schoolName": "江西电力职业技术学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-83899638",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "电力系统自动化技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,单色识别不全者慎报",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    }
+  ]
+}

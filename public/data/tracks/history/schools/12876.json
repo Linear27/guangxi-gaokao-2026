@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12876",
+    "schoolName": "绍兴职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "浙江省绍兴市",
+    "consultPhone": "0575-88329488、88054099",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "12876",
+      "schoolName": "绍兴职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "浙江省绍兴市",
+      "consultPhone": "0575-88329488、88054099",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "书画艺术(书法)",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 17800,
+      "campus": null,
+      "remarks": "书法类，3 年，17800 元/年",
+      "pdfPage": 297,
+      "bookPage": 247
+    }
+  ]
+}

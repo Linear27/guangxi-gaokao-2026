@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12046",
+    "schoolName": "广州职业技术大学",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-34874086",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12046",
+      "schoolName": "广州职业技术大学",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-34874086",
+      "majorGroupCode": "100",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "酒店管理与数字化运营",
+      "planCount": 8,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": null,
+      "remarks": "3 年,5250 元/年,男生身高低于 168cm、女生身高低于 156cm 的考生请慎重报考",
+      "pdfPage": 328,
+      "bookPage": 278
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14231",
+    "schoolName": "泉州海洋职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "福建省泉州市",
+    "consultPhone": "0595-83858888",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "14231",
+      "schoolName": "泉州海洋职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省泉州市",
+      "consultPhone": "0595-83858888",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "表演艺术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 13050,
+      "campus": null,
+      "remarks": "音乐类（音乐表演），3 年，13050 元/年",
+      "pdfPage": 303,
+      "bookPage": 253
+    }
+  ]
+}

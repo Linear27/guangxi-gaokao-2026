@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13922",
+    "schoolName": "湖南九嶷职业技术学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "湖南省永州市",
+    "consultPhone": "0746-8322939",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13922",
+      "schoolName": "湖南九嶷职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "湖南省永州市",
+      "consultPhone": "0746-8322939",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "药品经营与管理",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年 4600 元/年",
+      "pdfPage": 380,
+      "bookPage": 330
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13922",
+      "schoolName": "湖南九嶷职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "湖南省永州市",
+      "consultPhone": "0746-8322939",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "酒店管理与数字化运营",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年，4600 元/年",
+      "pdfPage": 380,
+      "bookPage": 330
+    }
+  ]
+}

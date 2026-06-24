@@ -1,0 +1,34 @@
+{
+  "title": "2026年广西高考指南招生计划篇（历史类）",
+  "topLevelKeys": [
+    "meta",
+    "frontMatter",
+    "militaryPlan",
+    "indexEntries",
+    "schools",
+    "batches",
+    "programs"
+  ],
+  "programFields": [
+    "track",
+    "batchName",
+    "schoolCode",
+    "schoolName",
+    "schoolTotalPlan",
+    "schoolLocation",
+    "consultPhone",
+    "majorGroupCode",
+    "majorGroupPlan",
+    "firstSubject",
+    "secondSubject",
+    "majorCode",
+    "majorName",
+    "planCount",
+    "durationYears",
+    "tuitionPerYear",
+    "campus",
+    "remarks",
+    "pdfPage",
+    "bookPage"
+  ]
+}

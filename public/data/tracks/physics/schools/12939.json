@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12939",
+    "schoolName": "江西信息应用职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省南昌市",
+    "consultPhone": "0791-85273256",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12939",
+      "schoolName": "江西信息应用职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-85273256",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "大气探测技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12939",
+      "schoolName": "江西信息应用职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-85273256",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "电子信息工程技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    }
+  ]
+}

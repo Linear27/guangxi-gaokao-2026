@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14919",
+    "schoolName": "九江卫生健康职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省九江市",
+    "consultPhone": "0792-8251137",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14919",
+      "schoolName": "九江卫生健康职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省九江市",
+      "consultPhone": "0792-8251137",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,不招色盲、色弱考生; 建议男生身高 165cm 以下, 女生身高 155cm 以下慎报",
+      "pdfPage": 429,
+      "bookPage": 379
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14919",
+      "schoolName": "九江卫生健康职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省九江市",
+      "consultPhone": "0792-8251137",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "中医康复技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,不招色盲、色弱考生",
+      "pdfPage": 429,
+      "bookPage": 379
+    }
+  ]
+}

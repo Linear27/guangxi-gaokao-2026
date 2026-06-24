@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14508",
+    "schoolName": "湖南劳动人事职业学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "湖南省长沙市",
+    "consultPhone": "0731-86880668",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14508",
+      "schoolName": "湖南劳动人事职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "湖南省长沙市",
+      "consultPhone": "0731-86880668",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "智慧旅游技术应用",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年，4600 元/年",
+      "pdfPage": 409,
+      "bookPage": 359
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14508",
+      "schoolName": "湖南劳动人事职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "湖南省长沙市",
+      "consultPhone": "0731-86880668",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "社会工作",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 3500,
+      "campus": null,
+      "remarks": "3 年，3500 元/年",
+      "pdfPage": 409,
+      "bookPage": 359
+    }
+  ]
+}

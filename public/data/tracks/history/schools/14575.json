@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14575",
+    "schoolName": "海南体育职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "海南省海口市",
+    "consultPhone": "0898-65350285",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "14575",
+      "schoolName": "海南体育职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "海南省海口市",
+      "consultPhone": "0898-65350285",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "社会体育",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5200,
+      "campus": null,
+      "remarks": "体育类,3 年,5200 元/年",
+      "pdfPage": 312,
+      "bookPage": 262
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "14575",
+      "schoolName": "海南体育职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "海南省海口市",
+      "consultPhone": "0898-65350285",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "运动训练",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5200,
+      "campus": null,
+      "remarks": "体育类,3 年,5200 元/年",
+      "pdfPage": 312,
+      "bookPage": 262
+    }
+  ]
+}

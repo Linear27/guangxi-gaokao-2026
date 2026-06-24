@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13619",
+    "schoolName": "阜阳理工学院",
+    "schoolTotalPlan": 40,
+    "schoolLocation": "安徽省阜阳市",
+    "consultPhone": "0558-2689151",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13619",
+      "schoolName": "阜阳理工学院",
+      "schoolTotalPlan": 40,
+      "schoolLocation": "安徽省阜阳市",
+      "consultPhone": "0558-2689151",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 40,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "新能源汽车工程",
+      "planCount": 20,
+      "durationYears": 4,
+      "tuitionPerYear": 18800,
+      "campus": null,
+      "remarks": "4 年，18800 元/年",
+      "pdfPage": 493,
+      "bookPage": 445,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13619",
+      "schoolName": "阜阳理工学院",
+      "schoolTotalPlan": 40,
+      "schoolLocation": "安徽省阜阳市",
+      "consultPhone": "0558-2689151",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 40,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "002",
+      "majorName": "物联网工程",
+      "planCount": 20,
+      "durationYears": 4,
+      "tuitionPerYear": 18800,
+      "campus": null,
+      "remarks": "4 年，18800 元/年",
+      "pdfPage": 493,
+      "bookPage": 445,
+      "track": "physics"
+    }
+  ]
+}

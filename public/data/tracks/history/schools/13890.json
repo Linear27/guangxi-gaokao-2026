@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13890",
+    "schoolName": "广西工业学院",
+    "schoolTotalPlan": 15,
+    "schoolLocation": "广西壮族自治区北海市",
+    "consultPhone": "0779-2239111",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13890",
+      "schoolName": "广西工业学院",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "广西壮族自治区北海市",
+      "consultPhone": "0779-2239111",
+      "majorGroupCode": "113",
+      "majorGroupPlan": 15,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "010",
+      "majorName": "物流管理",
+      "planCount": 15,
+      "durationYears": 4,
+      "tuitionPerYear": "待定",
+      "campus": null,
+      "remarks": "4 年, 学费待定",
+      "pdfPage": 277,
+      "bookPage": 227
+    }
+  ]
+}

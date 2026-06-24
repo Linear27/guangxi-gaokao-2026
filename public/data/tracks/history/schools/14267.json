@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14267",
+    "schoolName": "重庆交通职业学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-63437777",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14267",
+      "schoolName": "重庆交通职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-63437777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "城市轨道交通类",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 11800,
+      "campus": null,
+      "remarks": "3 年, 11800 元/年, 包含专业: 城市轨道交通运营管理、城市轨道交通机电技术",
+      "pdfPage": 398,
+      "bookPage": 348
+    }
+  ]
+}

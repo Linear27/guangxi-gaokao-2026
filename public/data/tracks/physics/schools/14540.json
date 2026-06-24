@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14540",
+    "schoolName": "黑龙江冰雪体育职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "黑龙江省哈尔滨市",
+    "consultPhone": "0451-58599055",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "14540",
+      "schoolName": "黑龙江冰雪体育职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "黑龙江省哈尔滨市",
+      "consultPhone": "0451-58599055",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "运动训练",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "体育类，3年，6000元/年",
+      "pdfPage": 558,
+      "bookPage": 510,
+      "track": "physics"
+    }
+  ]
+}

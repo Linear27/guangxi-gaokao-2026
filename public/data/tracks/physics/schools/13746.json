@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13746",
+    "schoolName": "台州科技职业学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "浙江省台州市",
+    "consultPhone": "0576-89188199",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13746",
+      "schoolName": "台州科技职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "浙江省台州市",
+      "consultPhone": "0576-89188199",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "环境工程技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3年,6600元/年",
+      "pdfPage": 634,
+      "bookPage": 586,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13746",
+      "schoolName": "台州科技职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "浙江省台州市",
+      "consultPhone": "0576-89188199",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "工业设计",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3年,6600元/年",
+      "pdfPage": 634,
+      "bookPage": 586,
+      "track": "physics"
+    }
+  ]
+}

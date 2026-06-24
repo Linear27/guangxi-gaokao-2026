@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12821",
+    "schoolName": "安顺职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "贵州省安顺市",
+    "consultPhone": "0851-33229847",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12821",
+      "schoolName": "安顺职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "贵州省安顺市",
+      "consultPhone": "0851-33229847",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "护理",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3 年,3850 元/年",
+      "pdfPage": 348,
+      "bookPage": 298
+    }
+  ]
+}

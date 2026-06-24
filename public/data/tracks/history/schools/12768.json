@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12768",
+    "schoolName": "济源职业技术学院",
+    "schoolTotalPlan": 9,
+    "schoolLocation": "河南省济源市",
+    "consultPhone": "0391-6636611",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12768",
+      "schoolName": "济源职业技术学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "河南省济源市",
+      "consultPhone": "0391-6636611",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 9,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 7,
+      "durationYears": 3,
+      "tuitionPerYear": 4800,
+      "campus": "高新校区办学",
+      "remarks": "3 年,4800 元/年,在高新校区办学",
+      "pdfPage": 346,
+      "bookPage": 296
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12768",
+      "schoolName": "济源职业技术学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "河南省济源市",
+      "consultPhone": "0391-6636611",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 9,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "学前教育",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 3700,
+      "campus": "高新校区办学",
+      "remarks": "师范类,3 年,3700 元/年,在高新校区办学",
+      "pdfPage": 346,
+      "bookPage": 296
+    }
+  ]
+}

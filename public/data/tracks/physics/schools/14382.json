@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14382",
+    "schoolName": "河南推拿职业学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "河南省洛阳市",
+    "consultPhone": "0379-65234003",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14382",
+      "schoolName": "河南推拿职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "河南省洛阳市",
+      "consultPhone": "0379-65234003",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "针灸推拿",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4800,
+      "campus": null,
+      "remarks": "3 年, 4800 元/年",
+      "pdfPage": 674,
+      "bookPage": 626,
+      "track": "physics"
+    }
+  ]
+}

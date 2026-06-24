@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10247",
+    "schoolName": "同济大学",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-65982643",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10247",
+      "schoolName": "同济大学",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-65982643",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "人文科学试验班",
+      "planCount": 4,
+      "durationYears": 4,
+      "tuitionPerYear": 6500,
+      "campus": null,
+      "remarks": "4年，6500元/年，包含专业：传播学、德语、英语(数智人文)、日语、哲学、文化产业管理、汉语言文学",
+      "pdfPage": 160,
+      "bookPage": 110
+    }
+  ]
+}

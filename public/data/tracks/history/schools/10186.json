@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10186",
+    "schoolName": "长春理工大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "吉林省长春市",
+    "consultPhone": "0431-85582999",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10186",
+      "schoolName": "长春理工大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "吉林省长春市",
+      "consultPhone": "0431-85582999",
+      "majorGroupCode": "719",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "030",
+      "majorName": "少数民族预科班",
+      "planCount": 2,
+      "durationYears": 1,
+      "tuitionPerYear": 5000,
+      "campus": "春明湖校区办学",
+      "remarks": "预科类, 1 年, 5000 元/年, 在春明湖校区办学, 入学后在吉林省教育学院学习一年。预科学习结束后根据成绩、志愿以及高中阶段选考科目，历史组学生在英语、法学、社会工作、汉语言文学、汉语国际教育、俄语、日语中选择专业，其中英语专业只招收英语语种考生，汉语国际教育专业非英语语种考生慎报",
+      "pdfPage": 154,
+      "bookPage": 104
+    }
+  ]
+}

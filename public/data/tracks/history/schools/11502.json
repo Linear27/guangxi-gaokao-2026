@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11502",
+    "schoolName": "福州职业技术大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "福建省福州市",
+    "consultPhone": "0591-83760662、83760669",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11502",
+      "schoolName": "福州职业技术大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-83760662、83760669",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "会展策划与管理",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年，6000 元/年",
+      "pdfPage": 323,
+      "bookPage": 273
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11502",
+      "schoolName": "福州职业技术大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-83760662、83760669",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "广告艺术设计",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年，6000 元/年",
+      "pdfPage": 323,
+      "bookPage": 273
+    }
+  ]
+}

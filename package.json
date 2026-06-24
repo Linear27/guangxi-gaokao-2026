@@ -1,14 +1,16 @@
 {
-  "name": "guangxi-gaokao-2026-physics",
+  "name": "guangxi-gaokao-2026",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "build:history": "node scripts/build-2025-history.mjs",
+    "build:tracks": "node scripts/build-track-data.mjs",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -27,6 +29,7 @@
     "@vitejs/plugin-react": "^6.0.2",
     "oxlint": "^1.69.0",
     "typescript": "~6.0.2",
-    "vite": "^8.1.0"
+    "vite": "^8.1.0",
+    "vitest": "^4.0.16"
   }
 }

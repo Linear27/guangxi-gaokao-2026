@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14748",
+    "schoolName": "和君职业学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "江西省赣州市",
+    "consultPhone": "0797-5669922",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14748",
+      "schoolName": "和君职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江西省赣州市",
+      "consultPhone": "0797-5669922",
+      "majorGroupCode": "116",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "婴幼儿托育服务与管理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 9152,
+      "campus": null,
+      "remarks": "3 年, 9152 元/年, 在和君教育小镇办学",
+      "pdfPage": 423,
+      "bookPage": 373
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14748",
+      "schoolName": "和君职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江西省赣州市",
+      "consultPhone": "0797-5669922",
+      "majorGroupCode": "117",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "研学旅行管理与服务",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 8888,
+      "campus": null,
+      "remarks": "3 年,8888 元/年,在和君教育小镇办学",
+      "pdfPage": 423,
+      "bookPage": 373
+    }
+  ]
+}

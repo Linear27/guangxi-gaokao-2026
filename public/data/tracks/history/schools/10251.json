@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10251",
+    "schoolName": "华东理工大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-64252763",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10251",
+      "schoolName": "华东理工大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-64252763",
+      "majorGroupCode": "701",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "021",
+      "majorName": "市场营销(大数据营销)",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 6500,
+      "campus": "奉贤校区和徐汇校区办学",
+      "remarks": "民族班,4年,6500元/年,在奉贤校区和徐汇校区办学",
+      "pdfPage": 160,
+      "bookPage": 110
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10251",
+      "schoolName": "华东理工大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-64252763",
+      "majorGroupCode": "701",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "022",
+      "majorName": "公共事业管理",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 6500,
+      "campus": "奉贤校区和徐汇校区办学",
+      "remarks": "民族班,4 年,6500 元/年,在奉贤校区和徐汇校区办学",
+      "pdfPage": 160,
+      "bookPage": 110
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13101",
+    "schoolName": "常州工业职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江苏省常州市",
+    "consultPhone": "4009902878",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13101",
+      "schoolName": "常州工业职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省常州市",
+      "consultPhone": "4009902878",
+      "majorGroupCode": "105",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "汽车技术服务与营销",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "3 年，5300 元/年，在大学城办学",
+      "pdfPage": 621,
+      "bookPage": 573,
+      "track": "physics"
+    }
+  ]
+}

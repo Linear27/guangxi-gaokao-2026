@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13560",
+    "schoolName": "新疆第二医学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "新疆维吾尔自治区克拉玛依市",
+    "consultPhone": "0990-7563666",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13560",
+      "schoolName": "新疆第二医学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "新疆维吾尔自治区克拉玛依市",
+      "consultPhone": "0990-7563666",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "生物+思想政治",
+      "majorCode": "015",
+      "majorName": "公共事业管理",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 4000,
+      "campus": null,
+      "remarks": "4 年,4000 元/年",
+      "pdfPage": 266,
+      "bookPage": 216
+    }
+  ]
+}

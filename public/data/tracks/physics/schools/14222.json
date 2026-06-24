@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14222",
+    "schoolName": "西安医学高等专科学校",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "陕西省西安市",
+    "consultPhone": "029-81483333",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14222",
+      "schoolName": "西安医学高等专科学校",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "陕西省西安市",
+      "consultPhone": "029-81483333",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "口腔医学",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 12100,
+      "campus": null,
+      "remarks": "3 年，12100 元/年",
+      "pdfPage": 664,
+      "bookPage": 616,
+      "track": "physics"
+    }
+  ]
+}

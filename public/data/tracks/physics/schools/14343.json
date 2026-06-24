@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14343",
+    "schoolName": "济南护理职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-58164412、59532205、59822206",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14343",
+      "schoolName": "济南护理职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-58164412、59532205、59822206",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6900,
+      "campus": null,
+      "remarks": "3 年, 6900 元/年",
+      "pdfPage": 671,
+      "bookPage": 623,
+      "track": "physics"
+    }
+  ]
+}

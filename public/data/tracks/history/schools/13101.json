@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13101",
+    "schoolName": "常州工业职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江苏省常州市",
+    "consultPhone": "4009902878",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13101",
+      "schoolName": "常州工业职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江苏省常州市",
+      "consultPhone": "4009902878",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "市场营销",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年, 4700 元/年, 在大学城办学",
+      "pdfPage": 359,
+      "bookPage": 309
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14470",
+    "schoolName": "铜仁幼儿师范高等专科学校",
+    "schoolTotalPlan": 15,
+    "schoolLocation": "贵州省铜仁市",
+    "consultPhone": "0856-5212456",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14470",
+      "schoolName": "铜仁幼儿师范高等专科学校",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "贵州省铜仁市",
+      "consultPhone": "0856-5212456",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 15,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "学前教育",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "师范类,3 年,3850 元/年",
+      "pdfPage": 677,
+      "bookPage": 629,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14470",
+      "schoolName": "铜仁幼儿师范高等专科学校",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "贵州省铜仁市",
+      "consultPhone": "0856-5212456",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 15,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "008",
+      "majorName": "小学数学教育",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "师范类,3 年,3850 元/年",
+      "pdfPage": 677,
+      "bookPage": 629,
+      "track": "physics"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13917",
+    "schoolName": "松原职业技术学院",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "吉林省松原市",
+    "consultPhone": "0438-3166222",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13917",
+      "schoolName": "松原职业技术学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "吉林省松原市",
+      "consultPhone": "0438-3166222",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": "江南校区办学",
+      "remarks": "3 年,5000 元/年,在江南校区办学,不招色盲、色弱、单色识别不全考生",
+      "pdfPage": 644,
+      "bookPage": 596,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13917",
+      "schoolName": "松原职业技术学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "吉林省松原市",
+      "consultPhone": "0438-3166222",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "新能源汽车检测与维修技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 644,
+      "bookPage": 596,
+      "track": "physics"
+    }
+  ]
+}

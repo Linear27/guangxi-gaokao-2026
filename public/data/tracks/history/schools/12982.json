@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12982",
+    "schoolName": "湖北水利水电职业技术学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "湖北省武汉市",
+    "consultPhone": "027-87378093",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12982",
+      "schoolName": "湖北水利水电职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "湖北省武汉市",
+      "consultPhone": "027-87378093",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电力储能应用技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 355,
+      "bookPage": 305
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12982",
+      "schoolName": "湖北水利水电职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "湖北省武汉市",
+      "consultPhone": "027-87378093",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "电气自动化技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 355,
+      "bookPage": 305
+    }
+  ]
+}

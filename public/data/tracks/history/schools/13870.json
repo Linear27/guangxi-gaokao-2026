@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13870",
+    "schoolName": "上饶职业技术学院",
+    "schoolTotalPlan": 16,
+    "schoolLocation": "江西省上饶市",
+    "consultPhone": "0793-8472000",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13870",
+      "schoolName": "上饶职业技术学院",
+      "schoolTotalPlan": 16,
+      "schoolLocation": "江西省上饶市",
+      "consultPhone": "0793-8472000",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "音乐表演",
+      "planCount": 8,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "音乐类（音乐表演），3 年，5000 元/年",
+      "pdfPage": 301,
+      "bookPage": 251
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13870",
+      "schoolName": "上饶职业技术学院",
+      "schoolTotalPlan": 16,
+      "schoolLocation": "江西省上饶市",
+      "consultPhone": "0793-8472000",
+      "majorGroupCode": "202",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "舞蹈表演",
+      "planCount": 8,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "舞蹈类，3 年，5000 元/年",
+      "pdfPage": 301,
+      "bookPage": 251
+    }
+  ]
+}

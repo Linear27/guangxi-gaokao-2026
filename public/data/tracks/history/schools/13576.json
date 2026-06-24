@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13576",
+    "schoolName": "海南政法职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "海南省海口市",
+    "consultPhone": "0898-65858299、65858266、65853799",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13576",
+      "schoolName": "海南政法职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "海南省海口市",
+      "consultPhone": "0898-65858299、65858266、65853799",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "物联网应用技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5720,
+      "campus": null,
+      "remarks": "3 年,5720 元/年",
+      "pdfPage": 366,
+      "bookPage": 316
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13576",
+      "schoolName": "海南政法职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "海南省海口市",
+      "consultPhone": "0898-65858299、65858266、65853799",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "法律事务(商事仲裁与人民调解方向)",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5720,
+      "campus": null,
+      "remarks": "3年,5720元/年",
+      "pdfPage": 366,
+      "bookPage": 316
+    }
+  ]
+}

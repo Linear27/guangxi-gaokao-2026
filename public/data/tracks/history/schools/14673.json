@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14673",
+    "schoolName": "资阳口腔职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "四川省资阳市",
+    "consultPhone": "028-26080007",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14673",
+      "schoolName": "资阳口腔职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "四川省资阳市",
+      "consultPhone": "028-26080007",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "医学美容技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 12600,
+      "campus": null,
+      "remarks": "3 年, 12600 元/年",
+      "pdfPage": 419,
+      "bookPage": 369
+    }
+  ]
+}

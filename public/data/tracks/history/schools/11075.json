@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11075",
+    "schoolName": "三峡大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "湖北省宜昌市",
+    "consultPhone": "0717-6392665",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11075",
+      "schoolName": "三峡大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "湖北省宜昌市",
+      "consultPhone": "0717-6392665",
+      "majorGroupCode": "719",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "039",
+      "majorName": "少数民族预科班",
+      "planCount": 5,
+      "durationYears": 1,
+      "tuitionPerYear": 4000,
+      "campus": null,
+      "remarks": "预科类, 1 年, 4000 元/年, 少数民族预科班学生完成一年预科阶段学习, 学业合格、无重大违纪违规情况, 根据学校专业计划, 结合学生综合测评排名、专业志愿, 升入相应本科专业学习。升入本科专业后, 转入本校部",
+      "pdfPage": 226,
+      "bookPage": 176
+    }
+  ]
+}

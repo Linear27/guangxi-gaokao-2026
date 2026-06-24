@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13044",
+    "schoolName": "湖南城建职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "湖南省湘潭市",
+    "consultPhone": "0731-58662866",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13044",
+      "schoolName": "湖南城建职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "湖南省湘潭市",
+      "consultPhone": "0731-58662866",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "现代物业管理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": "待定",
+      "campus": "高新校区办学",
+      "remarks": "3 年, 学费待定, 在高新校区办学",
+      "pdfPage": 358,
+      "bookPage": 308
+    }
+  ]
+}

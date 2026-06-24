@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14651",
+    "schoolName": "宝鸡三和职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "陕西省宝鸡市",
+    "consultPhone": "0917-3973600",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14651",
+      "schoolName": "宝鸡三和职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "陕西省宝鸡市",
+      "consultPhone": "0917-3973600",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 7800,
+      "campus": null,
+      "remarks": "3 年,7800 元/年",
+      "pdfPage": 418,
+      "bookPage": 368
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14851",
+    "schoolName": "香港城市大学(东莞)",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "广东省东莞市",
+    "consultPhone": "0769-21183030",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "14851",
+      "schoolName": "香港城市大学(东莞)",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "广东省东莞市",
+      "consultPhone": "0769-21183030",
+      "majorGroupCode": "301",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "计算机科学与技术(中外合作办学)",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 115000,
+      "campus": null,
+      "remarks": "4 年, 115000 元/年, 入学不分专业, 大一可在计算机科学与技术、智能制造工程、材料科学与工程、能源与动力工程、数据科学与大数据技术五个专业中选择, 最迟大二结束时必须选定专业。本科期间满足相关要求可申请香港城市大学的交换生, 本科毕业达到相关要求可优先申请升读香港城市大学（东莞）或香港城市大学",
+      "pdfPage": 529,
+      "bookPage": 481,
+      "track": "physics"
+    }
+  ]
+}

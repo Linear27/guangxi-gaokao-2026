@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14670",
+    "schoolName": "内江卫生与健康职业学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "四川省内江市",
+    "consultPhone": "0832-2029779、2029339",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14670",
+      "schoolName": "内江卫生与健康职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "四川省内江市",
+      "consultPhone": "0832-2029779、2029339",
+      "majorGroupCode": "150",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5800,
+      "campus": null,
+      "remarks": "3 年，5800 元/年，不招色盲、色弱考生",
+      "pdfPage": 419,
+      "bookPage": 369
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14670",
+      "schoolName": "内江卫生与健康职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "四川省内江市",
+      "consultPhone": "0832-2029779、2029339",
+      "majorGroupCode": "150",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "中医康复技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5800,
+      "campus": null,
+      "remarks": "3年，5800元/年，不招色盲、色弱考生",
+      "pdfPage": 419,
+      "bookPage": 369
+    }
+  ]
+}

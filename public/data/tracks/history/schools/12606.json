@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12606",
+    "schoolName": "重庆工贸职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-72806301、72806302、72806303",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12606",
+      "schoolName": "重庆工贸职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-72806301、72806302、72806303",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "大数据技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3年，6600元/年",
+      "pdfPage": 341,
+      "bookPage": 291
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12606",
+      "schoolName": "重庆工贸职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-72806301、72806302、72806303",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "大数据与会计",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5900,
+      "campus": null,
+      "remarks": "3 年,5900 元/年",
+      "pdfPage": 341,
+      "bookPage": 291
+    }
+  ]
+}

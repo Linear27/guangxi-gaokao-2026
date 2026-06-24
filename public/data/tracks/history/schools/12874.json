@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12874",
+    "schoolName": "嘉兴职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "浙江省嘉兴市",
+    "consultPhone": "0573-89978111",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12874",
+      "schoolName": "嘉兴职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "浙江省嘉兴市",
+      "consultPhone": "0573-89978111",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "酒店管理与数字化运营",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年,6000 元/年",
+      "pdfPage": 350,
+      "bookPage": 300
+    }
+  ]
+}

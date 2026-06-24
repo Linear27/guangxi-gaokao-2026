@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11631",
+    "schoolName": "河套学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "内蒙古自治区巴彦淖尔市",
+    "consultPhone": "0478-7950103",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11631",
+      "schoolName": "河套学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "内蒙古自治区巴彦淖尔市",
+      "consultPhone": "0478-7950103",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "英语",
+      "planCount": 10,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "4 年,4200 元/年,要求外语语种为英语",
+      "pdfPage": 239,
+      "bookPage": 189
+    }
+  ]
+}

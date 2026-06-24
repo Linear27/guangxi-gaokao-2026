@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14335",
+    "schoolName": "廊坊卫生职业学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "河北省廊坊市",
+    "consultPhone": "0316-6021111",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14335",
+      "schoolName": "廊坊卫生职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "河北省廊坊市",
+      "consultPhone": "0316-6021111",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 6,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 402,
+      "bookPage": 352
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14335",
+      "schoolName": "廊坊卫生职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "河北省廊坊市",
+      "consultPhone": "0316-6021111",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "康复治疗技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 402,
+      "bookPage": 352
+    }
+  ]
+}

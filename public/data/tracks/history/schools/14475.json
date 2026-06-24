@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14475",
+    "schoolName": "江苏商贸职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江苏省南通市",
+    "consultPhone": "0513-85679269",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14475",
+      "schoolName": "江苏商贸职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省南通市",
+      "consultPhone": "0513-85679269",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "业财数据应用与管理",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年，4700 元/年",
+      "pdfPage": 407,
+      "bookPage": 357
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14475",
+      "schoolName": "江苏商贸职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省南通市",
+      "consultPhone": "0513-85679269",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "农村电子商务",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年，4700 元/年",
+      "pdfPage": 407,
+      "bookPage": 357
+    }
+  ]
+}

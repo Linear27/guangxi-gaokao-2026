@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "18213",
+    "schoolName": "哈尔滨工业大学(深圳)",
+    "schoolTotalPlan": 16,
+    "schoolLocation": "广东省深圳市",
+    "consultPhone": "0755-26035891",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "18213",
+      "schoolName": "哈尔滨工业大学(深圳)",
+      "schoolTotalPlan": 16,
+      "schoolLocation": "广东省深圳市",
+      "consultPhone": "0755-26035891",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 16,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "经济管理试验班(智能社会治理)",
+      "planCount": 16,
+      "durationYears": 4,
+      "tuitionPerYear": 6230,
+      "campus": null,
+      "remarks": "4 年,6230 元/年,在深圳市办学,包含专业:会计学、数字媒体艺术,另包含数字经济专业,本专业类内任选专业",
+      "pdfPage": 288,
+      "bookPage": 238
+    }
+  ]
+}

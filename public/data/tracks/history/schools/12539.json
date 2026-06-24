@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12539",
+    "schoolName": "酒泉职业技术大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "甘肃省酒泉市",
+    "consultPhone": "0937-2689925",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12539",
+      "schoolName": "酒泉职业技术大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "甘肃省酒泉市",
+      "consultPhone": "0937-2689925",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "应用化工技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3 年,4500 元/年",
+      "pdfPage": 339,
+      "bookPage": 289
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12539",
+      "schoolName": "酒泉职业技术大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "甘肃省酒泉市",
+      "consultPhone": "0937-2689925",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "学前教育",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3 年,4500 元/年",
+      "pdfPage": 339,
+      "bookPage": 289
+    }
+  ]
+}

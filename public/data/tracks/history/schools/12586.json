@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12586",
+    "schoolName": "上海思博职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-68023335",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12586",
+      "schoolName": "上海思博职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-68023335",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "机电一体化技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 24000,
+      "campus": null,
+      "remarks": "3 年,24000 元/年",
+      "pdfPage": 340,
+      "bookPage": 290
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12586",
+      "schoolName": "上海思博职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-68023335",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "新能源汽车技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 24000,
+      "campus": null,
+      "remarks": "3 年,24000 元/年",
+      "pdfPage": 340,
+      "bookPage": 290
+    }
+  ]
+}

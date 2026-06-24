@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10894",
+    "schoolName": "景德镇学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "江西省景德镇市",
+    "consultPhone": "0798-8334044",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "10894",
+      "schoolName": "景德镇学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "江西省景德镇市",
+      "consultPhone": "0798-8334044",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "工艺美术",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "美术与设计类，4 年，8000 元/年",
+      "pdfPage": 87,
+      "bookPage": 37
+    },
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "10894",
+      "schoolName": "景德镇学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "江西省景德镇市",
+      "consultPhone": "0798-8334044",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "数字媒体艺术",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "美术与设计类, 4 年, 8000 元/年",
+      "pdfPage": 87,
+      "bookPage": 37
+    }
+  ]
+}

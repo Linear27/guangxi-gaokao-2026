@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14786",
+    "schoolName": "沧州航空职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "河北省沧州市",
+    "consultPhone": "0317-7510777",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14786",
+      "schoolName": "沧州航空职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "河北省沧州市",
+      "consultPhone": "0317-7510777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "无人机应用技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 13800,
+      "campus": null,
+      "remarks": "3 年, 13800 元/年",
+      "pdfPage": 425,
+      "bookPage": 375
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14786",
+      "schoolName": "沧州航空职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "河北省沧州市",
+      "consultPhone": "0317-7510777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "新能源汽车技术(飞行汽车)",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 13800,
+      "campus": null,
+      "remarks": "3 年, 13800 元/年",
+      "pdfPage": 425,
+      "bookPage": 375
+    }
+  ]
+}

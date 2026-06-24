@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13630",
+    "schoolName": "北京金融科技学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "北京市",
+    "consultPhone": "010-69597736",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "13630",
+      "schoolName": "北京金融科技学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-69597736",
+      "majorGroupCode": "206",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "视觉传达设计",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 79800,
+      "campus": null,
+      "remarks": "美术与设计类, 4 年, 79800 元/年",
+      "pdfPage": 103,
+      "bookPage": 53
+    }
+  ]
+}

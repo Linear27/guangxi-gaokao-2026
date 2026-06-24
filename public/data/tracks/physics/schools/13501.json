@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13501",
+    "schoolName": "河南开封科技传媒学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河南省开封市",
+    "consultPhone": "0371-23880086",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13501",
+      "schoolName": "河南开封科技传媒学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省开封市",
+      "consultPhone": "0371-23880086",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "广告学",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 15000,
+      "campus": "复兴大道校区办学",
+      "remarks": "4 年,15000 元/年,在复兴大道校区办学",
+      "pdfPage": 488,
+      "bookPage": 440,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13501",
+      "schoolName": "河南开封科技传媒学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省开封市",
+      "consultPhone": "0371-23880086",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "商务英语",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 15000,
+      "campus": "金明大道校区办学",
+      "remarks": "4 年,15000 元/年,在金明大道校区办学,要求外语语种为英语",
+      "pdfPage": 488,
+      "bookPage": 440,
+      "track": "physics"
+    }
+  ]
+}

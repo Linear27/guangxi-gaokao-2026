@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13765",
+    "schoolName": "福州黎明职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "福建省福州市",
+    "consultPhone": "0591-22800138",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13765",
+      "schoolName": "福州黎明职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-22800138",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "药物制剂技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 11300,
+      "campus": "地球村校区办学",
+      "remarks": "3 年, 11300 元/年, 在地球村校区办学",
+      "pdfPage": 371,
+      "bookPage": 321
+    }
+  ]
+}

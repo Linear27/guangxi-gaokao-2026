@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13538",
+    "schoolName": "山西晋中理工学院",
+    "schoolTotalPlan": 20,
+    "schoolLocation": "山西省晋中市",
+    "consultPhone": "0351-3624910",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13538",
+      "schoolName": "山西晋中理工学院",
+      "schoolTotalPlan": 20,
+      "schoolLocation": "山西省晋中市",
+      "consultPhone": "0351-3624910",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 20,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "计算机科学与技术",
+      "planCount": 20,
+      "durationYears": 4,
+      "tuitionPerYear": 15800,
+      "campus": null,
+      "remarks": "4 年,15800 元/年",
+      "pdfPage": 488,
+      "bookPage": 440,
+      "track": "physics"
+    }
+  ]
+}

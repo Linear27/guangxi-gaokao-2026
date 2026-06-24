@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10819",
+    "schoolName": "呼伦贝尔学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "内蒙古自治区呼伦贝尔市",
+    "consultPhone": "0470-3103125",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10819",
+      "schoolName": "呼伦贝尔学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "内蒙古自治区呼伦贝尔市",
+      "consultPhone": "0470-3103125",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "国际经济与贸易",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4 年,4400 元/年,入学后外语只开设英语教学，非英语语种考生谨慎报考",
+      "pdfPage": 222,
+      "bookPage": 172
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10819",
+      "schoolName": "呼伦贝尔学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "内蒙古自治区呼伦贝尔市",
+      "consultPhone": "0470-3103125",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "新闻学",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "4 年,4200 元/年",
+      "pdfPage": 222,
+      "bookPage": 172
+    }
+  ]
+}

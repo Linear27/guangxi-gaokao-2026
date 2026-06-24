@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10144",
+    "schoolName": "沈阳理工大学",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "辽宁省沈阳市",
+    "consultPhone": "024-24686088",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10144",
+      "schoolName": "沈阳理工大学",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "辽宁省沈阳市",
+      "consultPhone": "024-24686088",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "036",
+      "majorName": "英语",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 4800,
+      "campus": null,
+      "remarks": "4 年,4800 元/年,要求外语语种为英语",
+      "pdfPage": 150,
+      "bookPage": 100
+    }
+  ]
+}

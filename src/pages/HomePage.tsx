@@ -1,21 +1,21 @@
-import { Link as RouterLink } from 'react-router-dom'
+import { Link as RouterLink, useSearchParams } from 'react-router-dom'
 import {
   Button,
   Card,
   CardActionArea,
   CardContent,
   Chip,
-  Divider,
   Grid,
   Stack,
   Typography,
 } from '@mui/material'
 import SearchIcon from '@mui/icons-material/Search'
-import type { BatchSummary, SummaryData } from '../types'
-import { formatNumber } from '../data/derive'
+import type { BatchSummary, SummaryData, Track } from '../types'
+import { batchRoute, formatNumber, isTrack, searchRoute, trackLabel } from '../data/derive'
+import { TrackSwitch } from '../components/TrackSwitch'
 
 type HomePageProps = {
-  summary: SummaryData
+  summaries: Record<Track, SummaryData>
 }
 
 type BatchGroup = {
@@ -63,8 +63,12 @@ const batchGroups: BatchGroup[] = [
 
 const admissionTypeKeywords = ['预科类', '免费少数民族预科班', '少数民族预科班', '民族班', '边防军人子女预科班']
 
-export function HomePage({ summary }: HomePageProps) {
-  const batchMap = new Map(summary.batches.map((batch) => [batch.batchName, batch]))
+export function HomePage({ summaries }: HomePageProps) {
+  const [searchParams] = useSearchParams()
+  const requestedTrack = searchParams.get('track') ?? undefined
+  const activeTrack: Track = isTrack(requestedTrack) ? requestedTrack : 'physics'
+  const activeSummary = summaries[activeTrack]
+  const activeBatchMap = new Map(activeSummary.batches.map((batch) => [batch.batchName, batch]))
 
   return (
     <Stack spacing={3}>
@@ -72,15 +76,15 @@ export function HomePage({ summary }: HomePageProps) {
         <CardContent>
           <Stack spacing={2}>
             <Typography component="h1" variant="h1">
-              广西 2026 物理类招生计划查询
+              广西 2026 招生计划查询
             </Typography>
             <Typography color="text.secondary" variant="body1">
-              整理自《2026年广西高考指南招生计划篇（物理类）》，支持按院校、专业、批次查询，并提供 PDF
-              页码/书页码用于核对。
+              整理自《2026年广西高考指南招生计划篇》，支持按院校、专业、批次和科类查询，并提供 PDF 页码/书页码用于核对。
             </Typography>
+            <TrackSwitch track={activeTrack} />
             <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1.5}>
-              <Button component={RouterLink} startIcon={<SearchIcon />} to="/search">
-                查院校和专业
+              <Button component={RouterLink} startIcon={<SearchIcon />} to={searchRoute(activeTrack)}>
+                查{trackLabel(activeTrack)}
               </Button>
             </Stack>
           </Stack>
@@ -89,13 +93,13 @@ export function HomePage({ summary }: HomePageProps) {
 
       <Grid container spacing={2}>
         <Grid size={{ xs: 12, md: 4 }}>
-          <MetricCard label="院校" value={summary.counts.schools} />
+          <MetricCard label={`${trackLabel(activeTrack)}专业计划`} to={searchRoute(activeTrack)} value={activeSummary.counts.programs} />
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
-          <MetricCard label="批次" value={summary.counts.batches} />
+          <MetricCard label={`${trackLabel(activeTrack)}院校`} to={searchRoute(activeTrack)} value={activeSummary.counts.schools} />
         </Grid>
         <Grid size={{ xs: 12, md: 4 }}>
-          <MetricCard label="专业计划" value={summary.counts.programs} />
+          <MetricCard label={`${trackLabel(activeTrack)}批次`} to={searchRoute(activeTrack)} value={activeSummary.counts.batches} />
         </Grid>
       </Grid>
 
@@ -107,9 +111,9 @@ export function HomePage({ summary }: HomePageProps) {
                 <Typography component="h2" variant="h2">
                   按批次浏览
                 </Typography>
-                <Stack divider={<Divider flexItem />} spacing={1.5}>
+                <Stack spacing={1.5}>
                   {batchGroups.map((group) => (
-                    <BatchGroupSection batchMap={batchMap} group={group} key={group.title} />
+                    <BatchGroupSection activeTrack={activeTrack} batchMap={activeBatchMap} group={group} key={group.title} />
                   ))}
                 </Stack>
               </Stack>
@@ -134,7 +138,7 @@ export function HomePage({ summary }: HomePageProps) {
                       component={RouterLink}
                       key={keyword}
                       label={keyword}
-                      to={`/search?keyword=${encodeURIComponent(keyword)}`}
+                      to={searchRoute(activeTrack, keyword)}
                       variant="outlined"
                     />
                   ))}
@@ -149,17 +153,14 @@ export function HomePage({ summary }: HomePageProps) {
 }
 
 type BatchGroupSectionProps = {
+  activeTrack: Track
   batchMap: Map<string, BatchSummary>
   group: BatchGroup
 }
 
-function BatchGroupSection({ batchMap, group }: BatchGroupSectionProps) {
-  const batches = group.batches
-    .map((item) => {
-      const batch = batchMap.get(item.batchName)
-      return batch ? { ...item, batch } : null
-    })
-    .filter((item): item is { batchName: string; shortName: string; batch: BatchSummary } => Boolean(item))
+function BatchGroupSection({ activeTrack, batchMap, group }: BatchGroupSectionProps) {
+  const batches = resolveGroupBatches(batchMap, group)
+  if (batches.length === 0) return null
   const total = batches.reduce((sum, item) => sum + item.batch.programCount, 0)
 
   return (
@@ -172,15 +173,39 @@ function BatchGroupSection({ batchMap, group }: BatchGroupSectionProps) {
           {formatNumber(total)} 条
         </Typography>
       </Stack>
+      <TrackBatchChips batches={batches} track={activeTrack} />
+    </Stack>
+  )
+}
+
+function resolveGroupBatches(batchMap: Map<string, BatchSummary>, group: BatchGroup) {
+  return group.batches
+    .map((item) => {
+      const batch = batchMap.get(item.batchName)
+      return batch ? { ...item, batch } : null
+    })
+    .filter((item): item is { batchName: string; shortName: string; batch: BatchSummary } => Boolean(item))
+}
+
+type TrackBatchChipsProps = {
+  batches: Array<{ batchName: string; shortName: string; batch: BatchSummary }>
+  track: Track
+}
+
+function TrackBatchChips({ batches, track }: TrackBatchChipsProps) {
+  if (batches.length === 0) return null
+
+  return (
+    <Stack spacing={0.75}>
       <Stack direction="row" sx={{ flexWrap: 'wrap', gap: 1 }}>
         {batches.map(({ batch, shortName }) => (
           <Chip
             clickable
             color="primary"
             component={RouterLink}
-            key={batch.batchName}
+            key={`${track}-${batch.batchName}`}
             label={`${shortName} ${formatNumber(batch.programCount)} 条`}
-            to={`/batches/${batch.slug}`}
+            to={batchRoute(track, batch.slug)}
             variant="outlined"
           />
         ))}
@@ -191,13 +216,14 @@ function BatchGroupSection({ batchMap, group }: BatchGroupSectionProps) {
 
 type MetricCardProps = {
   label: string
+  to: string
   value: number
 }
 
-function MetricCard({ label, value }: MetricCardProps) {
+function MetricCard({ label, to, value }: MetricCardProps) {
   return (
     <Card>
-      <CardActionArea component={RouterLink} to="/search">
+      <CardActionArea component={RouterLink} to={to}>
         <CardContent>
           <Typography color="text.secondary" variant="body2">
             {label}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12798",
+    "schoolName": "上海济光职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "上海市",
+    "consultPhone": null,
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12798",
+      "schoolName": "上海济光职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "上海市",
+      "consultPhone": null,
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "计算机网络技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 24000,
+      "campus": "杨浦校区办学",
+      "remarks": "3 年, 24000 元/年, 在杨浦校区办学",
+      "pdfPage": 607,
+      "bookPage": 559,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12798",
+      "schoolName": "上海济光职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "上海市",
+      "consultPhone": null,
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "信息安全技术应用",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 26000,
+      "campus": "杨浦校区办学",
+      "remarks": "3 年,26000 元/年,在杨浦校区办学",
+      "pdfPage": 607,
+      "bookPage": 559,
+      "track": "physics"
+    }
+  ]
+}

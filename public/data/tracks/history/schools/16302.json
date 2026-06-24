@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "16302",
+    "schoolName": "西交利物浦大学",
+    "schoolTotalPlan": 21,
+    "schoolLocation": "江苏省苏州市",
+    "consultPhone": "0512-88161888",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "16302",
+      "schoolName": "西交利物浦大学",
+      "schoolTotalPlan": 21,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-88161888",
+      "majorGroupCode": "301",
+      "majorGroupPlan": 21,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "工商管理类(中外合作办学)",
+      "planCount": 21,
+      "durationYears": 4,
+      "tuitionPerYear": 99000,
+      "campus": null,
+      "remarks": "4年,99000元/年,包含专业：会计学(中外合作办学)、工商管理(中外合作办学)、人力资源管理(中外合作办学)、国际商务(中外合作办学)、市场营销(中外合作办学),采用大类招生,入学后可跨大类自主选择专业，详见学校招生章程。学费标准如有调整，按省发改委、省教育厅最新政策执行，最高不超过10万元/年",
+      "pdfPage": 287,
+      "bookPage": 237
+    }
+  ]
+}

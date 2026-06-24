@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12748",
+    "schoolName": "平顶山工业职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河南省平顶山市",
+    "consultPhone": "0375-2066462、2066705、2066706",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12748",
+      "schoolName": "平顶山工业职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省平顶山市",
+      "consultPhone": "0375-2066462、2066705、2066706",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电气自动化技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年，4600 元/年",
+      "pdfPage": 345,
+      "bookPage": 295
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12748",
+      "schoolName": "平顶山工业职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省平顶山市",
+      "consultPhone": "0375-2066462、2066705、2066706",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "大数据与会计",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 3700,
+      "campus": null,
+      "remarks": "3 年,3700 元/年",
+      "pdfPage": 345,
+      "bookPage": 295
+    }
+  ]
+}

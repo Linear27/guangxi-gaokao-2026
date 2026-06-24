@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14428",
+    "schoolName": "重庆幼儿师范高等专科学校",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-81771029",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "14428",
+      "schoolName": "重庆幼儿师范高等专科学校",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-81771029",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "社会体育",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5900,
+      "campus": "梨园校区办学",
+      "remarks": "体育类,3 年,5900 元/年,在梨园校区办学",
+      "pdfPage": 558,
+      "bookPage": 510,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14428",
+      "schoolName": "重庆幼儿师范高等专科学校",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-81771029",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "学前教育",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5900,
+      "campus": "小湾校区办学",
+      "remarks": "师范类,3 年,5900 元/年,在小湾校区办学",
+      "pdfPage": 676,
+      "bookPage": 628,
+      "track": "physics"
+    }
+  ]
+}

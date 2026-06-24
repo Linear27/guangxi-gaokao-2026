@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14508",
+    "schoolName": "湖南劳动人事职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "湖南省长沙市",
+    "consultPhone": "0731-86880668",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14508",
+      "schoolName": "湖南劳动人事职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "湖南省长沙市",
+      "consultPhone": "0731-86880668",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "智能制造装备技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年, 4600 元/年",
+      "pdfPage": 679,
+      "bookPage": 631,
+      "track": "physics"
+    }
+  ]
+}

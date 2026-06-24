@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10851",
+    "schoolName": "上海东海职业技术学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-64523424",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "10851",
+      "schoolName": "上海东海职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-64523424",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "机械制造及自动化",
+      "planCount": 6,
+      "durationYears": 3,
+      "tuitionPerYear": 21000,
+      "campus": null,
+      "remarks": "3 年,21000 元/年",
+      "pdfPage": 567,
+      "bookPage": 519,
+      "track": "physics"
+    }
+  ]
+}

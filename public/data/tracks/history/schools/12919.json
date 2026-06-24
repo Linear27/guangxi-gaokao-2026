@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12919",
+    "schoolName": "炎黄职业技术学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "江苏省淮安市",
+    "consultPhone": "18651261996",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12919",
+      "schoolName": "炎黄职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "江苏省淮安市",
+      "consultPhone": "18651261996",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "计算机应用技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "3 年, 18000 元/年",
+      "pdfPage": 352,
+      "bookPage": 302
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12919",
+      "schoolName": "炎黄职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "江苏省淮安市",
+      "consultPhone": "18651261996",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "电子商务",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 16000,
+      "campus": null,
+      "remarks": "3 年，16000 元/年",
+      "pdfPage": 352,
+      "bookPage": 302
+    }
+  ]
+}

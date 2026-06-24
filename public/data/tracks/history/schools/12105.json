@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12105",
+    "schoolName": "天津中德应用技术大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "天津市",
+    "consultPhone": "022-28776099",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12105",
+      "schoolName": "天津中德应用技术大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "天津市",
+      "consultPhone": "022-28776099",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "019",
+      "majorName": "物流管理",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4年，4400元/年",
+      "pdfPage": 248,
+      "bookPage": 198
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12105",
+      "schoolName": "天津中德应用技术大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "天津市",
+      "consultPhone": "022-28776099",
+      "majorGroupCode": "105",
+      "majorGroupPlan": 13,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "023",
+      "majorName": "电子商务",
+      "planCount": 13,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 330,
+      "bookPage": 280
+    }
+  ]
+}

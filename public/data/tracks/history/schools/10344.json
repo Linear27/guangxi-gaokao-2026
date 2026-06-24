@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10344",
+    "schoolName": "浙江中医药大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "浙江省杭州市",
+    "consultPhone": "0571-86613520",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10344",
+      "schoolName": "浙江中医药大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-86613520",
+      "majorGroupCode": "108",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "024",
+      "majorName": "国际商务",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "4 年,5300 元/年,第一、二学年在富春校区，第三学年起按专业需要进行校区调整",
+      "pdfPage": 167,
+      "bookPage": 117
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10344",
+      "schoolName": "浙江中医药大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-86613520",
+      "majorGroupCode": "108",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "025",
+      "majorName": "公共事业管理",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "4 年,5300 元/年,第一、二学年在富春校区，第三学年起按专业需要进行校区调整",
+      "pdfPage": 167,
+      "bookPage": 117
+    }
+  ]
+}

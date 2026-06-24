@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14652",
+    "schoolName": "和田职业技术学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "新疆维吾尔自治区和田地区",
+    "consultPhone": "0903-6867333",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14652",
+      "schoolName": "和田职业技术学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "新疆维吾尔自治区和田地区",
+      "consultPhone": "0903-6867333",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "现代家政服务与管理",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 3300,
+      "campus": null,
+      "remarks": "3 年,3300 元/年",
+      "pdfPage": 418,
+      "bookPage": 368
+    }
+  ]
+}

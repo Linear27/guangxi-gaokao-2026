@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12945",
+    "schoolName": "山东圣翰财贸职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-58178116",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12945",
+      "schoolName": "山东圣翰财贸职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-58178116",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "机电一体化技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12800,
+      "campus": null,
+      "remarks": "3 年, 12800 元/年",
+      "pdfPage": 353,
+      "bookPage": 303
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12945",
+      "schoolName": "山东圣翰财贸职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-58178116",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "药学",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 12800,
+      "campus": null,
+      "remarks": "3 年,12800 元/年",
+      "pdfPage": 353,
+      "bookPage": 303
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11051",
+    "schoolName": "镇江市高等专科学校",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "江苏省镇江市",
+    "consultPhone": "4008881410",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11051",
+      "schoolName": "镇江市高等专科学校",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省镇江市",
+      "consultPhone": "4008881410",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电子商务",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年,4700 元/年",
+      "pdfPage": 319,
+      "bookPage": 269
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11051",
+      "schoolName": "镇江市高等专科学校",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省镇江市",
+      "consultPhone": "4008881410",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "法律事务",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年,4700 元/年",
+      "pdfPage": 319,
+      "bookPage": 269
+    }
+  ]
+}

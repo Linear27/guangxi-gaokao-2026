@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11787",
+    "schoolName": "濮阳职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "河南省濮阳市",
+    "consultPhone": "0393-4677777",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "11787",
+      "schoolName": "濮阳职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "河南省濮阳市",
+      "consultPhone": "0393-4677777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "机电一体化技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年, 4600 元/年",
+      "pdfPage": 579,
+      "bookPage": 531,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "11787",
+      "schoolName": "濮阳职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "河南省濮阳市",
+      "consultPhone": "0393-4677777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "计算机应用技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年, 4600 元/年",
+      "pdfPage": 579,
+      "bookPage": 531,
+      "track": "physics"
+    }
+  ]
+}

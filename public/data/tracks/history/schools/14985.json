@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14985",
+    "schoolName": "成都美术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "四川省资阳市",
+    "consultPhone": "028-85430270",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "14985",
+      "schoolName": "成都美术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "四川省资阳市",
+      "consultPhone": "028-85430270",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "绘画",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 15000,
+      "campus": null,
+      "remarks": "美术与设计类，4 年，15000 元/年，不招色盲考生",
+      "pdfPage": 111,
+      "bookPage": 61
+    },
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "14985",
+      "schoolName": "成都美术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "四川省资阳市",
+      "consultPhone": "028-85430270",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "雕塑",
+      "planCount": 1,
+      "durationYears": 5,
+      "tuitionPerYear": 15000,
+      "campus": null,
+      "remarks": "美术与设计类,5 年,15000 元/年,不招色盲考生",
+      "pdfPage": 111,
+      "bookPage": 61
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "school": {
+    "schoolCode": "11315",
+    "schoolName": "闽西职业技术学院",
+    "schoolTotalPlan": 25,
+    "schoolLocation": null,
+    "consultPhone": null,
+    "programCount": 0,
+    "track": "history"
+  },
+  "programs": []
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11556",
+    "schoolName": "文山学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "云南省文山壮族苗族自治州",
+    "consultPhone": "0876-2825077",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11556",
+      "schoolName": "文山学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "云南省文山壮族苗族自治州",
+      "consultPhone": "0876-2825077",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "学前教育",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "师范类,4 年,4200 元/年",
+      "pdfPage": 238,
+      "bookPage": 188
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11556",
+      "schoolName": "文山学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "云南省文山壮族苗族自治州",
+      "consultPhone": "0876-2825077",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "越南语",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "4 年,4200 元/年",
+      "pdfPage": 238,
+      "bookPage": 188
+    }
+  ]
+}

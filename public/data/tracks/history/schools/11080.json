@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11080",
+    "schoolName": "西安文理学院",
+    "schoolTotalPlan": 18,
+    "schoolLocation": "陕西省西安市",
+    "consultPhone": "029-88221907、88221619",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11080",
+      "schoolName": "西安文理学院",
+      "schoolTotalPlan": 18,
+      "schoolLocation": "陕西省西安市",
+      "consultPhone": "029-88221907、88221619",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 13,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "汉语言文学",
+      "planCount": 8,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": "高新校区办学",
+      "remarks": "4 年,5000 元/年,在高新校区办学",
+      "pdfPage": 227,
+      "bookPage": 177
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11080",
+      "schoolName": "西安文理学院",
+      "schoolTotalPlan": 18,
+      "schoolLocation": "陕西省西安市",
+      "consultPhone": "029-88221907、88221619",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 13,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "汉语国际教育",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": "高新校区办学",
+      "remarks": "4 年,5000 元/年,在高新校区办学",
+      "pdfPage": 227,
+      "bookPage": 177
+    }
+  ]
+}

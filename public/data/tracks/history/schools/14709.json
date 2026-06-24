@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14709",
+    "schoolName": "青岛航空科技职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山东省青岛市",
+    "consultPhone": "0532-83418666",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14709",
+      "schoolName": "青岛航空科技职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省青岛市",
+      "consultPhone": "0532-83418666",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "消防救援技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12900,
+      "campus": null,
+      "remarks": "3 年, 12900 元/年",
+      "pdfPage": 420,
+      "bookPage": 370
+    }
+  ]
+}

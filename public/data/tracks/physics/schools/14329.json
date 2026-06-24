@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14329",
+    "schoolName": "徐州幼儿师范高等专科学校",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江苏省徐州市",
+    "consultPhone": "0516-68601777",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14329",
+      "schoolName": "徐州幼儿师范高等专科学校",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江苏省徐州市",
+      "consultPhone": "0516-68601777",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "人工智能技术应用",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "3 年,5300 元/年",
+      "pdfPage": 671,
+      "bookPage": 623,
+      "track": "physics"
+    }
+  ]
+}

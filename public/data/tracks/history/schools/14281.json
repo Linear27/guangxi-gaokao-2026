@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14281",
+    "schoolName": "承德护理职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河北省承德市",
+    "consultPhone": "0314-2152658/7600",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14281",
+      "schoolName": "承德护理职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河北省承德市",
+      "consultPhone": "0314-2152658/7600",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "临床医学",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,不招色盲、色弱考生，要求能准确识别红、黄、绿、蓝、紫颜色中任何一种颜色的导线、按键、信号灯、几何图",
+      "pdfPage": 398,
+      "bookPage": 348
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14281",
+      "schoolName": "承德护理职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河北省承德市",
+      "consultPhone": "0314-2152658/7600",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "口腔医学",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,不招色盲、色弱考生, 要求能准确识别红、黄、绿、蓝、紫颜色中任何一种颜色的导线、按键、信号灯、几何图",
+      "pdfPage": 399,
+      "bookPage": 349
+    }
+  ]
+}

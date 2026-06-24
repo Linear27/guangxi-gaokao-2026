@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10248",
+    "schoolName": "上海交通大学",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-34200000",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10248",
+      "schoolName": "上海交通大学",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-34200000",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "016",
+      "majorName": "法学试验班(含双学士学位项目)",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 6500,
+      "campus": null,
+      "remarks": "4 年,6500 元/年,包含专业：法学,含法学-经济学双学士学位项目",
+      "pdfPage": 160,
+      "bookPage": 110
+    }
+  ]
+}

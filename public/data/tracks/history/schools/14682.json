@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14682",
+    "schoolName": "安徽艺术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "安徽省合肥市",
+    "consultPhone": "0551-64400400",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "14682",
+      "schoolName": "安徽艺术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-64400400",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "舞蹈表演",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "舞蹈类，4 年，8000 元/年",
+      "pdfPage": 111,
+      "bookPage": 61
+    },
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "14682",
+      "schoolName": "安徽艺术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-64400400",
+      "majorGroupCode": "202",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "舞蹈表演（国际标准舞）",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "舞蹈类，4年，8000元/年",
+      "pdfPage": 111,
+      "bookPage": 61
+    }
+  ]
+}

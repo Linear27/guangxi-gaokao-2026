@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14232",
+    "schoolName": "泉州轻工职业学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "福建省泉州市",
+    "consultPhone": "0595-36207777",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14232",
+      "schoolName": "泉州轻工职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "福建省泉州市",
+      "consultPhone": "0595-36207777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "鞋类设计与工艺",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12600,
+      "campus": null,
+      "remarks": "3年，12600元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14232",
+      "schoolName": "泉州轻工职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "福建省泉州市",
+      "consultPhone": "0595-36207777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "食品智能加工技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12600,
+      "campus": null,
+      "remarks": "3 年，12600 元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    }
+  ]
+}

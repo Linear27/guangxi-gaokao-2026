@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12933",
+    "schoolName": "江西电力职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江西省南昌市",
+    "consultPhone": "0791-83899638",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12933",
+      "schoolName": "江西电力职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-83899638",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "发电厂及电力系统",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,单色识别不全者慎报",
+      "pdfPage": 352,
+      "bookPage": 302
+    }
+  ]
+}

@@ -1,32 +1,43 @@
 {
-  "title": "2026年广西高考指南招生计划篇（物理类）",
-  "generatedAt": "2026-06-24T08:15:45+00:00",
-  "counts": {
-    "schools": 1998,
-    "batches": 14,
-    "programs": 28852
-  },
-  "labels": {
-    "不编制分省计划": 559,
-    "以高校公布计划为准": 37,
-    "不作分省计划": 1,
-    "军队承担": 200,
-    "免收学费": 6
-  },
-  "files": {
-    "siteJson": "/data/site.json",
-    "summary": "/data/summary.json",
-    "schools": "/data/schools.json",
-    "programs": "/data/programs.json",
-    "history2025": "/data/history/2025/guangxi-physics-admission-lines.json",
-    "history2025Ranks": "/data/history/2025/guangxi-physics-rank-by-score.json",
-    "schema": "/data/schema.json",
-    "manifest": "/data/manifest.json"
-  },
-  "routes": {
-    "home": "/",
-    "search": "/search",
-    "school": "/schools/{schoolCode}",
-    "batch": "/batches/{batchSlug}"
-  }
+  "title": "广西 2026 招生计划查询",
+  "tracks": [
+    {
+      "track": "physics",
+      "label": "物理类",
+      "counts": {
+        "schools": 1998,
+        "batches": 14,
+        "programs": 28852
+      },
+      "files": {
+        "summary": "/data/tracks/physics/summary.json",
+        "programs": "/data/tracks/physics/programs.json",
+        "schools": "/data/tracks/physics/schools.json"
+      },
+      "routes": {
+        "search": "/physics/search",
+        "school": "/physics/schools/{schoolCode}",
+        "batch": "/physics/batches/{batchSlug}"
+      }
+    },
+    {
+      "track": "history",
+      "label": "历史类",
+      "counts": {
+        "schools": 1789,
+        "batches": 13,
+        "programs": 14806
+      },
+      "files": {
+        "summary": "/data/tracks/history/summary.json",
+        "programs": "/data/tracks/history/programs.json",
+        "schools": "/data/tracks/history/schools.json"
+      },
+      "routes": {
+        "search": "/history/search",
+        "school": "/history/schools/{schoolCode}",
+        "batch": "/history/batches/{batchSlug}"
+      }
+    }
+  ]
 }

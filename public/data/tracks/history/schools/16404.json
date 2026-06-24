@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "16404",
+    "schoolName": "上海纽约大学",
+    "schoolTotalPlan": null,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-20595599",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批其他三类",
+      "schoolCode": "16404",
+      "schoolName": "上海纽约大学",
+      "schoolTotalPlan": null,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-20595599",
+      "majorGroupCode": "101",
+      "majorGroupPlan": null,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "人文科学试验班",
+      "planCount": "不作分省计划",
+      "durationYears": 4,
+      "tuitionPerYear": "20万元/年",
+      "campus": null,
+      "remarks": "综合评价,4 年,包含专业：世界史,面试合格方可报考；入学后自由选择专业；第一、二学年学费 20 万元/年，第三、四学年学费 23 万元/年；不作分省计划，以各省实际录取数为主，录取规则见招生章程",
+      "pdfPage": 132,
+      "bookPage": 82
+    }
+  ]
+}

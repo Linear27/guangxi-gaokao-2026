@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12762",
+    "schoolName": "四川工商职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "四川省成都市",
+    "consultPhone": "028-87290498",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12762",
+      "schoolName": "四川工商职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "四川省成都市",
+      "consultPhone": "028-87290498",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "现代造纸技术",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 5720,
+      "campus": null,
+      "remarks": "3 年,5720 元/年",
+      "pdfPage": 605,
+      "bookPage": 557,
+      "track": "physics"
+    }
+  ]
+}

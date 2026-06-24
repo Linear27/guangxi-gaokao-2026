@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14229",
+    "schoolName": "安徽矿业职业技术学院",
+    "schoolTotalPlan": 25,
+    "schoolLocation": "安徽省淮北市",
+    "consultPhone": "0561-5259286",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14229",
+      "schoolName": "安徽矿业职业技术学院",
+      "schoolTotalPlan": 25,
+      "schoolLocation": "安徽省淮北市",
+      "consultPhone": "0561-5259286",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 25,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "电子商务",
+      "planCount": 15,
+      "durationYears": 3,
+      "tuitionPerYear": 6800,
+      "campus": null,
+      "remarks": "3年，6800元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14229",
+      "schoolName": "安徽矿业职业技术学院",
+      "schoolTotalPlan": 25,
+      "schoolLocation": "安徽省淮北市",
+      "consultPhone": "0561-5259286",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 25,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "数字媒体艺术设计",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 6800,
+      "campus": null,
+      "remarks": "3 年,6800 元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    }
+  ]
+}

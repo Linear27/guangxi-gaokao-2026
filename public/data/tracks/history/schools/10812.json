@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10812",
+    "schoolName": "吕梁学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "山西省吕梁市",
+    "consultPhone": "0358-3389388",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10812",
+      "schoolName": "吕梁学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "山西省吕梁市",
+      "consultPhone": "0358-3389388",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "学前教育",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 4950,
+      "campus": null,
+      "remarks": "师范类,4 年,4950 元/年",
+      "pdfPage": 222,
+      "bookPage": 172
+    }
+  ]
+}

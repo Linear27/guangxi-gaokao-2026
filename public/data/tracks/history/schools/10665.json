@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10665",
+    "schoolName": "铜仁学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "贵州省铜仁市",
+    "consultPhone": "0856-5232273",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10665",
+      "schoolName": "铜仁学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "贵州省铜仁市",
+      "consultPhone": "0856-5232273",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "学前教育",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4100,
+      "campus": null,
+      "remarks": "师范类，4年，4100元/年",
+      "pdfPage": 212,
+      "bookPage": 162
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10665",
+      "schoolName": "铜仁学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "贵州省铜仁市",
+      "consultPhone": "0856-5232273",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "特殊教育",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4100,
+      "campus": null,
+      "remarks": "师范类，4 年，4100 元/年",
+      "pdfPage": 212,
+      "bookPage": 162
+    }
+  ]
+}

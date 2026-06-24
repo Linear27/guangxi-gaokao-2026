@@ -5,10 +5,11 @@ import { ProgramGrid } from '../components/ProgramGrid'
 import { LoadingScreen } from '../App'
 import { loadAdmissionLines2025, loadBatchPayload } from '../data/loadSiteData'
 import type { AdmissionLine, BatchPayload } from '../types'
-import { buildAdmissionLineIndex, formatNumber } from '../data/derive'
+import { buildAdmissionLineIndex, formatNumber, isTrack, searchRoute, trackLabel } from '../data/derive'
 
 export function BatchPage() {
-  const { batchSlug } = useParams()
+  const { batchSlug, track } = useParams()
+  const activeTrack = isTrack(track) ? track : null
   const [payload, setPayload] = useState<BatchPayload | null>(null)
   const [admissionLines, setAdmissionLines] = useState<AdmissionLine[]>([])
   const [keyword, setKeyword] = useState('')
@@ -17,25 +18,35 @@ export function BatchPage() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    if (!batchSlug) return
+    if (!batchSlug || !activeTrack) return
     let alive = true
     setPayload(null)
     setAdmissionLines([])
     setKeyword('')
     setError(null)
-    Promise.all([loadBatchPayload(batchSlug), loadAdmissionLines2025()])
-      .then(([nextPayload, admissionLinesPayload]) => {
+    loadBatchPayload(activeTrack, batchSlug)
+      .then((nextPayload) => {
         if (!alive) return
         setPayload(nextPayload)
-        setAdmissionLines(admissionLinesPayload.admissionLines)
       })
       .catch((loadError: unknown) => {
         if (alive) setError(loadError instanceof Error ? loadError.message : '批次数据加载失败')
       })
+
+    loadAdmissionLines2025(activeTrack)
+      .then((admissionLinesPayload) => {
+        if (alive) setAdmissionLines(admissionLinesPayload.admissionLines)
+      })
+      .catch((loadError: unknown) => {
+        if (alive) {
+          setError(loadError instanceof Error ? loadError.message : '2025 参考线加载失败')
+        }
+      })
+
     return () => {
       alive = false
     }
-  }, [batchSlug])
+  }, [activeTrack, batchSlug])
 
   const programs = useMemo(() => payload?.programs ?? [], [payload])
   const admissionLineIndex = useMemo(() => buildAdmissionLineIndex(admissionLines), [admissionLines])
@@ -50,8 +61,8 @@ export function BatchPage() {
     )
   }, [deferredKeyword, programs])
 
-  if (!batchSlug) {
-    return <Navigate replace to="/" />
+  if (!batchSlug || !activeTrack) {
+    return <Navigate replace to={searchRoute('physics')} />
   }
 
   if (error) return <Alert severity="error">{error}</Alert>
@@ -61,7 +72,7 @@ export function BatchPage() {
     <Stack spacing={2}>
       <Stack spacing={0.5}>
         <Typography component="h1" variant="h1">
-          {payload.batch.batchName}
+          {trackLabel(activeTrack)} · {payload.batch.batchName}
         </Typography>
         <Typography color="text.secondary">
           当前显示 {formatNumber(filteredPrograms.length)} 条，批次总量 {formatNumber(programs.length)} 条。
@@ -81,7 +92,7 @@ export function BatchPage() {
           />
         </CardContent>
       </Card>
-      <ProgramGrid admissionLineIndex={admissionLineIndex} programs={filteredPrograms} />
+      <ProgramGrid admissionLineIndex={admissionLineIndex} programs={filteredPrograms} track={activeTrack} />
     </Stack>
   )
 }

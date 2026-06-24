@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12910",
+    "schoolName": "黑龙江农业经济职业学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "黑龙江省牡丹江市",
+    "consultPhone": "0453-6402875",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12910",
+      "schoolName": "黑龙江农业经济职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省牡丹江市",
+      "consultPhone": "0453-6402875",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "生物制药技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3年，6000元/年",
+      "pdfPage": 352,
+      "bookPage": 302
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12910",
+      "schoolName": "黑龙江农业经济职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省牡丹江市",
+      "consultPhone": "0453-6402875",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "婴幼儿托育服务与管理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年,6000 元/年",
+      "pdfPage": 352,
+      "bookPage": 302
+    }
+  ]
+}

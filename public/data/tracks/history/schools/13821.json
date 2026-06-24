@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13821",
+    "schoolName": "忻州职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "山西省忻州市",
+    "consultPhone": "0350-3159059",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13821",
+      "schoolName": "忻州职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山西省忻州市",
+      "consultPhone": "0350-3159059",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "针灸推拿",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4000,
+      "campus": null,
+      "remarks": "3 年,4000 元/年,不招色盲、色弱考生",
+      "pdfPage": 373,
+      "bookPage": 323
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10716",
+    "schoolName": "陕西中医药大学",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "陕西省咸阳市",
+    "consultPhone": "029-38185360",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10716",
+      "schoolName": "陕西中医药大学",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "陕西省咸阳市",
+      "consultPhone": "029-38185360",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "中医学",
+      "planCount": 2,
+      "durationYears": 5,
+      "tuitionPerYear": 6955,
+      "campus": null,
+      "remarks": "5 年,6955 元/年",
+      "pdfPage": 216,
+      "bookPage": 166
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10716",
+      "schoolName": "陕西中医药大学",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "陕西省咸阳市",
+      "consultPhone": "029-38185360",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "针灸推拿学",
+      "planCount": 2,
+      "durationYears": 5,
+      "tuitionPerYear": 6500,
+      "campus": null,
+      "remarks": "5 年,6500 元/年",
+      "pdfPage": 216,
+      "bookPage": 166
+    }
+  ]
+}

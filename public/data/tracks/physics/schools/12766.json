@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12766",
+    "schoolName": "江西工程学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省新余市",
+    "consultPhone": "0790-6351199、6351188、6351177",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "12766",
+      "schoolName": "江西工程学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省新余市",
+      "consultPhone": "0790-6351199、6351188、6351177",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "002",
+      "majorName": "计算机科学与技术",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "4 年，18000 元/年",
+      "pdfPage": 464,
+      "bookPage": 416,
+      "track": "physics"
+    }
+  ]
+}

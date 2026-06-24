@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13328",
+    "schoolName": "丽江文化旅游学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "云南省丽江市",
+    "consultPhone": "0888-5135668",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13328",
+      "schoolName": "丽江文化旅游学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "云南省丽江市",
+      "consultPhone": "0888-5135668",
+      "majorGroupCode": "106",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "009",
+      "majorName": "医学美容技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 16500,
+      "campus": null,
+      "remarks": "3 年, 16500 元/年",
+      "pdfPage": 625,
+      "bookPage": 577,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13328",
+      "schoolName": "丽江文化旅游学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "云南省丽江市",
+      "consultPhone": "0888-5135668",
+      "majorGroupCode": "106",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "010",
+      "majorName": "健康管理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 16500,
+      "campus": null,
+      "remarks": "3年，16500元/年",
+      "pdfPage": 625,
+      "bookPage": 577,
+      "track": "physics"
+    }
+  ]
+}

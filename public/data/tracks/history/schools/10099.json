@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10099",
+    "schoolName": "唐山师范学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "河北省唐山市",
+    "consultPhone": "0315-3863129",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10099",
+      "schoolName": "唐山师范学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河北省唐山市",
+      "consultPhone": "0315-3863129",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "经济学",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4 年,4600 元/年,不能准确识别红、黄、绿、蓝、紫颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取",
+      "pdfPage": 146,
+      "bookPage": 96
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10099",
+      "schoolName": "唐山师范学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河北省唐山市",
+      "consultPhone": "0315-3863129",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "资产评估",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4 年,4600 元/年,不能准确识别红、黄、绿、蓝、紫颜色中任何一种颜色的导线、按键、信号灯、几何图形者不予录取",
+      "pdfPage": 146,
+      "bookPage": 96
+    }
+  ]
+}

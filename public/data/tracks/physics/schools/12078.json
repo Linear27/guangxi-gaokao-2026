@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12078",
+    "schoolName": "硅湖职业技术学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "江苏省苏州市",
+    "consultPhone": "0512-57788000",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12078",
+      "schoolName": "硅湖职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-57788000",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "机电一体化技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "3 年,18000 元/年",
+      "pdfPage": 584,
+      "bookPage": 536,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12078",
+      "schoolName": "硅湖职业技术学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-57788000",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "计算机应用技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "3 年,18000 元/年",
+      "pdfPage": 584,
+      "bookPage": 536,
+      "track": "physics"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import type { AdmissionLine, PlanCount, Program, ProgramRow, Tuition } from '../types'
+import type { AdmissionLine, PlanCount, Program, ProgramRow, Track, Tuition } from '../types'
 
 export type SearchFilters = {
   keyword: string
@@ -7,6 +7,102 @@ export type SearchFilters = {
   majorGroupCode: string
   firstSubject: string
   secondSubject: string
+}
+
+export const tracks: Track[] = ['physics', 'history']
+
+export function isTrack(value: string | undefined): value is Track {
+  return value === 'physics' || value === 'history'
+}
+
+export function trackLabel(track: Track): string {
+  return track === 'physics' ? '物理类' : '历史类'
+}
+
+export function trackTitle(track: Track): string {
+  return `广西 2026 ${trackLabel(track)}招生计划查询`
+}
+
+export function trackDataBase(track: Track): string {
+  return `/data/tracks/${track}`
+}
+
+export function summaryUrl(track: Track): string {
+  return `${trackDataBase(track)}/summary.json`
+}
+
+export function programsUrl(track: Track): string {
+  return `${trackDataBase(track)}/programs.json`
+}
+
+export function schoolsUrl(track: Track): string {
+  return `${trackDataBase(track)}/schools.json`
+}
+
+export function schoolPayloadUrl(track: Track, schoolCode: string): string {
+  return `${trackDataBase(track)}/schools/${encodeURIComponent(schoolCode)}.json`
+}
+
+export function batchPayloadUrl(track: Track, batchSlug: string): string {
+  return `${trackDataBase(track)}/batches/${encodeURIComponent(batchSlug)}.json`
+}
+
+export function historyAdmissionLinesUrl(track: Track): string {
+  return `${trackDataBase(track)}/history/2025/guangxi-${track}-admission-lines.json`
+}
+
+export function schoolRoute(track: Track, schoolCode: string): string {
+  return `/${track}/schools/${encodeURIComponent(schoolCode)}`
+}
+
+export function batchRoute(track: Track, batchSlug: string): string {
+  return `/${track}/batches/${encodeURIComponent(batchSlug)}`
+}
+
+export function searchRoute(track: Track, keyword?: string): string {
+  const base = `/${track}/search`
+  return keyword ? `${base}?keyword=${encodeURIComponent(keyword)}` : base
+}
+
+export function searchParamsWithKeyword(currentSearch: string, keyword: string): string {
+  const searchParams = new URLSearchParams(currentSearch)
+  const normalizedKeyword = keyword.trim()
+  if (normalizedKeyword) {
+    searchParams.set('keyword', normalizedKeyword)
+  } else {
+    searchParams.delete('keyword')
+  }
+  const nextSearch = searchParams.toString()
+  return nextSearch ? `?${nextSearch}` : ''
+}
+
+export function filtersWithKeyword(filters: SearchFilters, keyword: string): SearchFilters {
+  return { ...filters, keyword: keyword.trim() }
+}
+
+export function homeRoute(track: Track): string {
+  return `/?track=${track}`
+}
+
+export function routeForTrack(pathname: string, search: string, nextTrack: Track): string {
+  const searchParams = new URLSearchParams(search)
+  const segments = pathname.split('/').filter(Boolean)
+  const currentTrack = isTrack(segments[0]) ? segments[0] : null
+
+  if (!currentTrack) {
+    searchParams.set('track', nextTrack)
+    return `/?${searchParams.toString()}`
+  }
+
+  segments[0] = nextTrack
+  return `/${segments.map((segment) => encodeURIComponent(segment)).join('/')}${search}`
+}
+
+export function legacyRouteFor(pathname: string): string {
+  if (pathname === '/search') return '/physics/search'
+  if (pathname.startsWith('/schools/')) return `/physics${pathname}`
+  if (pathname.startsWith('/batches/')) return `/physics${pathname}`
+  return '/physics/search'
 }
 
 export type ProgramSearchEntry = {
@@ -120,8 +216,8 @@ export function formatTuition(value: Tuition | null | undefined): string {
   return value || '—'
 }
 
-export function admissionLineKey(value: Pick<Program, 'batchName' | 'schoolCode' | 'majorGroupCode'>): string {
-  return [value.batchName, value.schoolCode, value.majorGroupCode].join('|')
+export function admissionLineKey(value: Pick<Program, 'track' | 'batchName' | 'schoolCode' | 'majorGroupCode'>): string {
+  return [value.track, value.batchName, value.schoolCode, value.majorGroupCode].join('|')
 }
 
 export function naturalCompare(left: string, right: string): number {

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "16406",
+    "schoolName": "昆山杜克大学",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "江苏省苏州市",
+    "consultPhone": "0512-36657028",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科提前批其他三类",
+      "schoolCode": "16406",
+      "schoolName": "昆山杜克大学",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-36657028",
+      "majorGroupCode": "302",
+      "majorGroupPlan": 1,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "心理学(中外合作办学)",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 190000,
+      "campus": null,
+      "remarks": "综合评价,4年,190000元/年,仅招收综合评价测试入围并达到特殊类型招生录取控制线的考生",
+      "pdfPage": 121,
+      "bookPage": 73,
+      "track": "physics"
+    }
+  ]
+}

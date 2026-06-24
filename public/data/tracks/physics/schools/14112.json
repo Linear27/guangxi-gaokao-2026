@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14112",
+    "schoolName": "厦门东海职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "福建省厦门市",
+    "consultPhone": "0592-7269258",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14112",
+      "schoolName": "厦门东海职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "福建省厦门市",
+      "consultPhone": "0592-7269258",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "药学",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 11900,
+      "campus": null,
+      "remarks": "3 年,11900 元/年",
+      "pdfPage": 657,
+      "bookPage": 609,
+      "track": "physics"
+    }
+  ]
+}

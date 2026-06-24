@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14706",
+    "schoolName": "九江理工职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省九江市",
+    "consultPhone": "0792-2166777",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14706",
+      "schoolName": "九江理工职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省九江市",
+      "consultPhone": "0792-2166777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "智能控制技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 9141,
+      "campus": null,
+      "remarks": "3 年,9141 元/年",
+      "pdfPage": 692,
+      "bookPage": 644,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14706",
+      "schoolName": "九江理工职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省九江市",
+      "consultPhone": "0792-2166777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "应用电子技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 9265,
+      "campus": null,
+      "remarks": "3 年,9265 元/年",
+      "pdfPage": 692,
+      "bookPage": 644,
+      "track": "physics"
+    }
+  ]
+}

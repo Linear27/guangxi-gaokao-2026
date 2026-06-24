@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12054",
+    "schoolName": "九州职业技术学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "江苏省徐州市",
+    "consultPhone": "0516-87370070",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12054",
+      "schoolName": "九州职业技术学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "江苏省徐州市",
+      "consultPhone": "0516-87370070",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 1,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "建筑装饰工程技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 15800,
+      "campus": null,
+      "remarks": "3 年, 15800 元/年",
+      "pdfPage": 583,
+      "bookPage": 535,
+      "track": "physics"
+    }
+  ]
+}

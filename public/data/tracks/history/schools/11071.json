@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11071",
+    "schoolName": "新乡学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河南省新乡市",
+    "consultPhone": "0373-3682901",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11071",
+      "schoolName": "新乡学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省新乡市",
+      "consultPhone": "0373-3682901",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "小学教育",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "师范类，4 年，4400 元/年",
+      "pdfPage": 226,
+      "bookPage": 176
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11071",
+      "schoolName": "新乡学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省新乡市",
+      "consultPhone": "0373-3682901",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "汉语言文学",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "师范类,4 年,4400 元/年",
+      "pdfPage": 226,
+      "bookPage": 176
+    }
+  ]
+}

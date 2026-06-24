@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11392",
+    "schoolName": "云南警官学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "云南省昆明市",
+    "consultPhone": "0871-65125133",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "11392",
+      "schoolName": "云南警官学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "云南省昆明市",
+      "consultPhone": "0871-65125133",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "002",
+      "majorName": "网络空间安全",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "4年，5000元/年",
+      "pdfPage": 413,
+      "bookPage": 365,
+      "track": "physics"
+    }
+  ]
+}

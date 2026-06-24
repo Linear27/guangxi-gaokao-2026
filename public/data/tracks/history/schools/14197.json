@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14197",
+    "schoolName": "湖北工程职业学院",
+    "schoolTotalPlan": 9,
+    "schoolLocation": "湖北省黄石市",
+    "consultPhone": "0714-6350697",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14197",
+      "schoolName": "湖北工程职业学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "湖北省黄石市",
+      "consultPhone": "0714-6350697",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 9,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "工业机器人技术",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年，5000 元/年",
+      "pdfPage": 394,
+      "bookPage": 344
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14197",
+      "schoolName": "湖北工程职业学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "湖北省黄石市",
+      "consultPhone": "0714-6350697",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 9,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "电子商务",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3年，5000元/年",
+      "pdfPage": 394,
+      "bookPage": 344
+    }
+  ]
+}

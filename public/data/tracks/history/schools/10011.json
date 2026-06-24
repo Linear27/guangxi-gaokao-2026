@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10011",
+    "schoolName": "北京工商大学",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "北京市",
+    "consultPhone": "010-68983272",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10011",
+      "schoolName": "北京工商大学",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-68983272",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "法学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": "阜成路校区办学",
+      "remarks": "4 年,4200 元/年,在阜成路校区办学",
+      "pdfPage": 136,
+      "bookPage": 86
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10011",
+      "schoolName": "北京工商大学",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-68983272",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "新闻传播学类",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": "阜成路校区办学",
+      "remarks": "4 年,4200 元/年,在阜成路校区办学,包含专业：新闻学、广告学(数字广告与智能传播方向)",
+      "pdfPage": 136,
+      "bookPage": 86
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13110",
+    "schoolName": "宿迁职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江苏省宿迁市",
+    "consultPhone": "0527-80805132",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13110",
+      "schoolName": "宿迁职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省宿迁市",
+      "consultPhone": "0527-80805132",
+      "majorGroupCode": "125",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "人工智能技术应用",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "3 年，18000 元/年",
+      "pdfPage": 359,
+      "bookPage": 309
+    }
+  ]
+}

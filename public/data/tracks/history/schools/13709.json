@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13709",
+    "schoolName": "广州工程技术职业学院",
+    "schoolTotalPlan": 12,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-87693663",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13709",
+      "schoolName": "广州工程技术职业学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-87693663",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 12,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "跨境电子商务",
+      "planCount": 12,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": "从化校区办学",
+      "remarks": "3 年，5250 元/年，在从化校区办学",
+      "pdfPage": 368,
+      "bookPage": 318
+    }
+  ]
+}

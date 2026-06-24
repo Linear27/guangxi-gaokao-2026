@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13104",
+    "schoolName": "江苏食品药品职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "江苏省淮安市",
+    "consultPhone": "0517-87088028",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13104",
+      "schoolName": "江苏食品药品职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "江苏省淮安市",
+      "consultPhone": "0517-87088028",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "食品检验检测技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "3 年,5300 元/年",
+      "pdfPage": 622,
+      "bookPage": 574,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13104",
+      "schoolName": "江苏食品药品职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "江苏省淮安市",
+      "consultPhone": "0517-87088028",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "药学",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6200,
+      "campus": null,
+      "remarks": "3 年,6200 元/年",
+      "pdfPage": 622,
+      "bookPage": 574,
+      "track": "physics"
+    }
+  ]
+}

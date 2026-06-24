@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12736",
+    "schoolName": "广东职业技术学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "广东省佛山市",
+    "consultPhone": "0757-83311534",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12736",
+      "schoolName": "广东职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "广东省佛山市",
+      "consultPhone": "0757-83311534",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "工商企业管理",
+      "planCount": 6,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": "高明校区办学",
+      "remarks": "3 年, 5250 元/年, 在高明校区办学",
+      "pdfPage": 344,
+      "bookPage": 294
+    }
+  ]
+}

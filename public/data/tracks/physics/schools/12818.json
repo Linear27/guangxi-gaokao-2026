@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12818",
+    "schoolName": "滨州职业技术大学",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "山东省滨州市",
+    "consultPhone": "0543-5082157",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专提前批定向类",
+      "schoolCode": "12818",
+      "schoolName": "滨州职业技术大学",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "山东省滨州市",
+      "consultPhone": "0543-5082157",
+      "majorGroupCode": "811",
+      "majorGroupPlan": 6,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "轮机工程技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "定向培养军士生,军事(非指挥)类,3年,6000元/年,只招男生，水面舰艇合格",
+      "pdfPage": 544,
+      "bookPage": 496,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专提前批定向类",
+      "schoolCode": "12818",
+      "schoolName": "滨州职业技术大学",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "山东省滨州市",
+      "consultPhone": "0543-5082157",
+      "majorGroupCode": "811",
+      "majorGroupPlan": 6,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 7900,
+      "campus": null,
+      "remarks": "定向培养军士生，军事(非指挥)类，3 年，7900 元/年，只招男生，陆勤合格",
+      "pdfPage": 544,
+      "bookPage": 496,
+      "track": "physics"
+    }
+  ]
+}

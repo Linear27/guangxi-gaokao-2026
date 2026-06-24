@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12765",
+    "schoolName": "汕尾职业技术学院",
+    "schoolTotalPlan": 12,
+    "schoolLocation": "广东省汕尾市",
+    "consultPhone": "0660-3386864",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12765",
+      "schoolName": "汕尾职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "广东省汕尾市",
+      "consultPhone": "0660-3386864",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 12,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "大数据与财务管理",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": null,
+      "remarks": "3 年,5250 元/年",
+      "pdfPage": 606,
+      "bookPage": 558,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12765",
+      "schoolName": "汕尾职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "广东省汕尾市",
+      "consultPhone": "0660-3386864",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 12,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "大数据与会计",
+      "planCount": 8,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": null,
+      "remarks": "3 年,5250 元/年",
+      "pdfPage": 606,
+      "bookPage": 558,
+      "track": "physics"
+    }
+  ]
+}

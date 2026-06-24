@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10336",
+    "schoolName": "杭州电子科技大学",
+    "schoolTotalPlan": 12,
+    "schoolLocation": "浙江省杭州市",
+    "consultPhone": "0571-86915007",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10336",
+      "schoolName": "杭州电子科技大学",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-86915007",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 12,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "017",
+      "majorName": "社会学",
+      "planCount": 6,
+      "durationYears": 4,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "4 年,5300 元/年,第一学年在绍兴校区,第二学年起在下沙校区",
+      "pdfPage": 167,
+      "bookPage": 117
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10336",
+      "schoolName": "杭州电子科技大学",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-86915007",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 12,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "018",
+      "majorName": "传播学",
+      "planCount": 6,
+      "durationYears": 4,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "4 年,5300 元/年,第一学年在绍兴校区,第二学年起在下沙校区",
+      "pdfPage": 167,
+      "bookPage": 117
+    }
+  ]
+}

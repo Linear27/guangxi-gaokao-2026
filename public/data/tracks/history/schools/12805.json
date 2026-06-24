@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12805",
+    "schoolName": "江苏电子信息职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "江苏省淮安市",
+    "consultPhone": "0517-83808080",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12805",
+      "schoolName": "江苏电子信息职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "江苏省淮安市",
+      "consultPhone": "0517-83808080",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "跨境电子商务",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3年，4700元/年",
+      "pdfPage": 348,
+      "bookPage": 298
+    }
+  ]
+}

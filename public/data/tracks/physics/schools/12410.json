@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12410",
+    "schoolName": "合肥通用职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "安徽省合肥市",
+    "consultPhone": "0551-65335652",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12410",
+      "schoolName": "合肥通用职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-65335652",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "智能控制技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6500,
+      "campus": "蜀山校区办学",
+      "remarks": "3 年,6500 元/年,在蜀山校区办学",
+      "pdfPage": 594,
+      "bookPage": 546,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12410",
+      "schoolName": "合肥通用职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-65335652",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "检验检测技术与管理",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 6500,
+      "campus": "蜀山校区办学",
+      "remarks": "3 年,6500 元/年,在蜀山校区办学",
+      "pdfPage": 594,
+      "bookPage": 546,
+      "track": "physics"
+    }
+  ]
+}

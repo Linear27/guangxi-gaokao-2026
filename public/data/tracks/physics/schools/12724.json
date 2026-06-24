@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12724",
+    "schoolName": "黑龙江林业职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "黑龙江省牡丹江市",
+    "consultPhone": "0453-6599385",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12724",
+      "schoolName": "黑龙江林业职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省牡丹江市",
+      "consultPhone": "0453-6599385",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电气自动化技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年，6000 元/年",
+      "pdfPage": 602,
+      "bookPage": 554,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12724",
+      "schoolName": "黑龙江林业职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省牡丹江市",
+      "consultPhone": "0453-6599385",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "学前教育",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "师范类，3年，6000元/年",
+      "pdfPage": 602,
+      "bookPage": 554,
+      "track": "physics"
+    }
+  ]
+}

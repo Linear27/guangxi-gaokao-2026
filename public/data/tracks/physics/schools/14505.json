@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14505",
+    "schoolName": "江西洪州职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江西省宜春市",
+    "consultPhone": "0795-6520123",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14505",
+      "schoolName": "江西洪州职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江西省宜春市",
+      "consultPhone": "0795-6520123",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "材料循环应用技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 10130,
+      "campus": null,
+      "remarks": "3 年, 10130 元/年",
+      "pdfPage": 679,
+      "bookPage": 631,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14505",
+      "schoolName": "江西洪州职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江西省宜春市",
+      "consultPhone": "0795-6520123",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "集成电路技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 10365,
+      "campus": null,
+      "remarks": "3 年, 10365 元/年",
+      "pdfPage": 679,
+      "bookPage": 631,
+      "track": "physics"
+    }
+  ]
+}

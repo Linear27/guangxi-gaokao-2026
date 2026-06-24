@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14031",
+    "schoolName": "陕西旅游烹饪职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "陕西省咸阳市",
+    "consultPhone": "029-36398022",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14031",
+      "schoolName": "陕西旅游烹饪职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "陕西省咸阳市",
+      "consultPhone": "029-36398022",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "计算机应用技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 9680,
+      "campus": null,
+      "remarks": "3 年, 9680 元/年",
+      "pdfPage": 386,
+      "bookPage": 336
+    }
+  ]
+}

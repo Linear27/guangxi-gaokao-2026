@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "16302",
+    "schoolName": "西交利物浦大学",
+    "schoolTotalPlan": 89,
+    "schoolLocation": "江苏省苏州市",
+    "consultPhone": "0512-88161888",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "16302",
+      "schoolName": "西交利物浦大学",
+      "schoolTotalPlan": 89,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-88161888",
+      "majorGroupCode": "302",
+      "majorGroupPlan": 27,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "金融学类(中外合作办学)",
+      "planCount": 27,
+      "durationYears": 4,
+      "tuitionPerYear": 99000,
+      "campus": null,
+      "remarks": "4年,99000元/年,包含专业：精算学(中外合作办学)、金融数学(中外合作办学),采用大类招生，入学后可跨大类自主选择专业，详见学校招生章程。学费标准如有调整，按省发展和改革委员会、省教育厅最新政策执行，最高不超过10万元/年",
+      "pdfPage": 532,
+      "bookPage": 484,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "16302",
+      "schoolName": "西交利物浦大学",
+      "schoolTotalPlan": 89,
+      "schoolLocation": "江苏省苏州市",
+      "consultPhone": "0512-88161888",
+      "majorGroupCode": "303",
+      "majorGroupPlan": 62,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "003",
+      "majorName": "电子信息类(中外合作办学)",
+      "planCount": 62,
+      "durationYears": 4,
+      "tuitionPerYear": 99000,
+      "campus": null,
+      "remarks": "4年,99000元/年，包含专业：电子科学与技术(中外合作办学)、通信工程(中外合作办学)、微电子科学与工程(中外合作办学)、人工智能(中外合作办学)，采用大类招生，入学后可跨大类自主选择专业，详见学校招生章程。学费标准如有调整，按省发展和改革委员会、省教育厅最新政策执行，最高不超过10万元/年",
+      "pdfPage": 532,
+      "bookPage": 484,
+      "track": "physics"
+    }
+  ]
+}

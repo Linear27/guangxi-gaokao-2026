@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13643",
+    "schoolName": "广西中医药大学赛恩斯新医药学院",
+    "schoolTotalPlan": 62,
+    "schoolLocation": "广西壮族自治区南宁市",
+    "consultPhone": "0771-4736166",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13643",
+      "schoolName": "广西中医药大学赛恩斯新医药学院",
+      "schoolTotalPlan": 62,
+      "schoolLocation": "广西壮族自治区南宁市",
+      "consultPhone": "0771-4736166",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 62,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "中医学",
+      "planCount": 46,
+      "durationYears": 5,
+      "tuitionPerYear": 15000,
+      "campus": null,
+      "remarks": "5 年,15000 元/年,不招色盲、色弱考生",
+      "pdfPage": 270,
+      "bookPage": 220
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13643",
+      "schoolName": "广西中医药大学赛恩斯新医药学院",
+      "schoolTotalPlan": 62,
+      "schoolLocation": "广西壮族自治区南宁市",
+      "consultPhone": "0771-4736166",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 62,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "针灸推拿学",
+      "planCount": 16,
+      "durationYears": 5,
+      "tuitionPerYear": 15000,
+      "campus": null,
+      "remarks": "5 年, 15000 元/年, 不招色盲、色弱考生",
+      "pdfPage": 270,
+      "bookPage": 220
+    }
+  ]
+}

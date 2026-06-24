@@ -1,8 +1,16 @@
 export type Maybe<T> = T | null
 export type PlanCount = number | string
 export type Tuition = number | string
+export type Track = 'physics' | 'history'
+
+export type TrackInfo = {
+  track: Track
+  label: string
+  title: string
+}
 
 export type Program = {
+  track: Track
   batchName: string
   schoolCode: string
   schoolName: string
@@ -25,6 +33,7 @@ export type Program = {
 }
 
 export type School = {
+  track: Track
   schoolCode: string
   schoolName: string
   schoolTotalPlan: Maybe<number>
@@ -34,6 +43,7 @@ export type School = {
 }
 
 export type Batch = {
+  track: Track
   batchName: string
   programCount: number
 }
@@ -53,6 +63,7 @@ export type BatchSummary = Batch & {
 }
 
 export type SummaryData = {
+  track: Track
   meta: Record<string, unknown>
   counts: {
     schools: number
@@ -92,6 +103,7 @@ export type ProgramRow = Program & {
 }
 
 export type AdmissionLine = {
+  track: Track
   year: 2025
   batchName: string
   schoolCode: string

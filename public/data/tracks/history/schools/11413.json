@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11413",
+    "schoolName": "中国矿业大学(北京)",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "北京市",
+    "consultPhone": "010-62331534",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11413",
+      "schoolName": "中国矿业大学(北京)",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-62331534",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "018",
+      "majorName": "行政管理",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "4 年,5000 元/年,在北京市办学,专业录取的身体限制条件详见学校本科招生章程",
+      "pdfPage": 232,
+      "bookPage": 182
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13964",
+    "schoolName": "南京视觉艺术职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "江苏省南京市",
+    "consultPhone": "025-57246666",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13964",
+      "schoolName": "南京视觉艺术职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "江苏省南京市",
+      "consultPhone": "025-57246666",
+      "majorGroupCode": "203",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "数字媒体艺术设计",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 20000,
+      "campus": null,
+      "remarks": "美术与设计类,3 年,20000 元/年",
+      "pdfPage": 302,
+      "bookPage": 252
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13964",
+      "schoolName": "南京视觉艺术职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "江苏省南京市",
+      "consultPhone": "025-57246666",
+      "majorGroupCode": "205",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "音乐表演",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 20000,
+      "campus": null,
+      "remarks": "音乐类（音乐表演）,3 年,20000 元/年",
+      "pdfPage": 302,
+      "bookPage": 252
+    }
+  ]
+}

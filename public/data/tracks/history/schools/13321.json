@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13321",
+    "schoolName": "青岛求实职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "山东省青岛市",
+    "consultPhone": "0532-84932212",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13321",
+      "schoolName": "青岛求实职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "山东省青岛市",
+      "consultPhone": "0532-84932212",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "动物医学",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12800,
+      "campus": null,
+      "remarks": "3 年, 12800 元/年",
+      "pdfPage": 362,
+      "bookPage": 312
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13321",
+      "schoolName": "青岛求实职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "山东省青岛市",
+      "consultPhone": "0532-84932212",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 12800,
+      "campus": null,
+      "remarks": "3 年, 12800 元/年",
+      "pdfPage": 363,
+      "bookPage": 313
+    }
+  ]
+}

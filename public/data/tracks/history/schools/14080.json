@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14080",
+    "schoolName": "山东城市建设职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-51765777、51765766、67892888",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14080",
+      "schoolName": "山东城市建设职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-51765777、51765766、67892888",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "智能建造技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6325,
+      "campus": null,
+      "remarks": "3 年,6325 元/年",
+      "pdfPage": 388,
+      "bookPage": 338
+    }
+  ]
+}

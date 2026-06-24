@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10110",
+    "schoolName": "中北大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山西省太原市",
+    "consultPhone": "0351-3921923、3922280",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10110",
+      "schoolName": "中北大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山西省太原市",
+      "consultPhone": "0351-3921923、3922280",
+      "majorGroupCode": "112",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "046",
+      "majorName": "英语",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5100,
+      "campus": null,
+      "remarks": "4 年,5100 元/年,要求外语语种为英语",
+      "pdfPage": 147,
+      "bookPage": 97
+    }
+  ]
+}

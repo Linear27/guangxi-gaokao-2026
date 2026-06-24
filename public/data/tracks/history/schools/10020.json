@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10020",
+    "schoolName": "北京农学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "北京市",
+    "consultPhone": "010-80799334",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10020",
+      "schoolName": "北京农学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-80799334",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "011",
+      "majorName": "旅游管理(数智文旅)",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "4年,4200元/年",
+      "pdfPage": 137,
+      "bookPage": 87
+    }
+  ]
+}

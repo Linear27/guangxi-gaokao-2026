@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10449",
+    "schoolName": "山东航空学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山东省滨州市",
+    "consultPhone": "0543-3190201",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10449",
+      "schoolName": "山东航空学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省滨州市",
+      "consultPhone": "0543-3190201",
+      "majorGroupCode": "105",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "汉语言文学(师范类)",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5280,
+      "campus": null,
+      "remarks": "师范类，4年，5280元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    }
+  ]
+}

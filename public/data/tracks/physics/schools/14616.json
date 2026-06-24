@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14616",
+    "schoolName": "贵州经贸职业技术学院",
+    "schoolTotalPlan": 12,
+    "schoolLocation": "贵州省黔南布依族苗族自治州",
+    "consultPhone": "0854-8369290",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14616",
+      "schoolName": "贵州经贸职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "贵州省黔南布依族苗族自治州",
+      "consultPhone": "0854-8369290",
+      "majorGroupCode": "105",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "建筑室内设计",
+      "planCount": 7,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3 年,3850 元/年",
+      "pdfPage": 687,
+      "bookPage": 639,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14616",
+      "schoolName": "贵州经贸职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "贵州省黔南布依族苗族自治州",
+      "consultPhone": "0854-8369290",
+      "majorGroupCode": "106",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "智能网联汽车技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3 年,3850 元/年",
+      "pdfPage": 687,
+      "bookPage": 639,
+      "track": "physics"
+    }
+  ]
+}

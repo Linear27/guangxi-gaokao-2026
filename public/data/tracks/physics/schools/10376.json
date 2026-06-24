@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10376",
+    "schoolName": "皖西学院",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "安徽省六安市",
+    "consultPhone": "0564-3305004",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10376",
+      "schoolName": "皖西学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "安徽省六安市",
+      "consultPhone": "0564-3305004",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "经济统计学",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4 年,4600 元/年",
+      "pdfPage": 241,
+      "bookPage": 193,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10376",
+      "schoolName": "皖西学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "安徽省六安市",
+      "consultPhone": "0564-3305004",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "会计学",
+      "planCount": 4,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4 年,4600 元/年",
+      "pdfPage": 241,
+      "bookPage": 193,
+      "track": "physics"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14570",
+    "schoolName": "烟台黄金职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "山东省烟台市",
+    "consultPhone": "0535-8307991",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14570",
+      "schoolName": "烟台黄金职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省烟台市",
+      "consultPhone": "0535-8307991",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "市场营销",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 11800,
+      "campus": null,
+      "remarks": "3 年,11800 元/年",
+      "pdfPage": 412,
+      "bookPage": 362
+    }
+  ]
+}

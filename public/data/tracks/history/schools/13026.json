@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13026",
+    "schoolName": "杭州科技职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "浙江省杭州市",
+    "consultPhone": "0571-28287180",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13026",
+      "schoolName": "杭州科技职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-28287180",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "跨境电子商务",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年，6000 元/年",
+      "pdfPage": 357,
+      "bookPage": 307
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13026",
+      "schoolName": "杭州科技职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "浙江省杭州市",
+      "consultPhone": "0571-28287180",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "酒店管理与数字化运营",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年，6000 元/年",
+      "pdfPage": 357,
+      "bookPage": 307
+    }
+  ]
+}

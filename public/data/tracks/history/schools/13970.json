@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13970",
+    "schoolName": "福建艺术职业学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "福建省福州市",
+    "consultPhone": "0591-38268178",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13970",
+      "schoolName": "福建艺术职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-38268178",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "书画艺术(绘画与策展方向)",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 7200,
+      "campus": null,
+      "remarks": "美术与设计类,3年,7200元/年",
+      "pdfPage": 302,
+      "bookPage": 252
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "13970",
+      "schoolName": "福建艺术职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-38268178",
+      "majorGroupCode": "202",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "服装与服饰设计",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 7200,
+      "campus": null,
+      "remarks": "美术与设计类,3 年,7200 元/年",
+      "pdfPage": 302,
+      "bookPage": 252
+    }
+  ]
+}

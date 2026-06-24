@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13719",
+    "schoolName": "广东科技学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "广东省东莞市",
+    "consultPhone": "0769-86211555",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13719",
+      "schoolName": "广东科技学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "广东省东莞市",
+      "consultPhone": "0769-86211555",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "互联网金融",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 34800,
+      "campus": null,
+      "remarks": "4 年，34800 元/年，在东莞市办学",
+      "pdfPage": 275,
+      "bookPage": 225
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "13719",
+      "schoolName": "广东科技学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "广东省东莞市",
+      "consultPhone": "0769-86211555",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "英语",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 34800,
+      "campus": null,
+      "remarks": "4 年,34800 元/年,在东莞市办学,英语教育,智能制造,数字媒体,跨文化交际",
+      "pdfPage": 275,
+      "bookPage": 225
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14261",
+    "schoolName": "山东文化产业职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "山东省青岛市",
+    "consultPhone": "0532-58078181",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "14261",
+      "schoolName": "山东文化产业职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "山东省青岛市",
+      "consultPhone": "0532-58078181",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "舞蹈表演",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 19800,
+      "campus": null,
+      "remarks": "舞蹈类，3 年，19800 元/年",
+      "pdfPage": 304,
+      "bookPage": 254
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "14261",
+      "schoolName": "山东文化产业职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "山东省青岛市",
+      "consultPhone": "0532-58078181",
+      "majorGroupCode": "202",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "音乐表演",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 15800,
+      "campus": null,
+      "remarks": "音乐类（音乐表演），3 年，15800 元/年",
+      "pdfPage": 304,
+      "bookPage": 254
+    }
+  ]
+}

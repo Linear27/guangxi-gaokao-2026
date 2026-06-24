@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10452",
+    "schoolName": "临沂大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "山东省临沂市",
+    "consultPhone": "0539-7258777",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10452",
+      "schoolName": "临沂大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省临沂市",
+      "consultPhone": "0539-7258777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "009",
+      "majorName": "法学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4 年, 4400 元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10452",
+      "schoolName": "临沂大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "山东省临沂市",
+      "consultPhone": "0539-7258777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "010",
+      "majorName": "家庭教育",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4 年, 4400 元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    }
+  ]
+}

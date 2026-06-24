@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14353",
+    "schoolName": "南阳职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河南省南阳市",
+    "consultPhone": "0377-60551111",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14353",
+      "schoolName": "南阳职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省南阳市",
+      "consultPhone": "0377-60551111",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "计算机网络技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 11000,
+      "campus": null,
+      "remarks": "3年，11000元/年",
+      "pdfPage": 402,
+      "bookPage": 352
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14353",
+      "schoolName": "南阳职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省南阳市",
+      "consultPhone": "0377-60551111",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "网络营销与直播电商",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 8300,
+      "campus": null,
+      "remarks": "3 年，8300 元/年",
+      "pdfPage": 402,
+      "bookPage": 352
+    }
+  ]
+}

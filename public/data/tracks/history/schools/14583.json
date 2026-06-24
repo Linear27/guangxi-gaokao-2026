@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14583",
+    "schoolName": "大理护理职业学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "云南省大理白族自治州",
+    "consultPhone": "0872-3064548",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14583",
+      "schoolName": "大理护理职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "云南省大理白族自治州",
+      "consultPhone": "0872-3064548",
+      "majorGroupCode": "110",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 6,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年,不招色盲、色弱考生",
+      "pdfPage": 413,
+      "bookPage": 363
+    }
+  ]
+}

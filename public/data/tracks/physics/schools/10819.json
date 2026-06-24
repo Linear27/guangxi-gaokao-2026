@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10819",
+    "schoolName": "呼伦贝尔学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "内蒙古自治区呼伦贝尔市",
+    "consultPhone": "0470-3103125",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10819",
+      "schoolName": "呼伦贝尔学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "内蒙古自治区呼伦贝尔市",
+      "consultPhone": "0470-3103125",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "003",
+      "majorName": "应用化学",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4 年,4600 元/年",
+      "pdfPage": 389,
+      "bookPage": 341,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10819",
+      "schoolName": "呼伦贝尔学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "内蒙古自治区呼伦贝尔市",
+      "consultPhone": "0470-3103125",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "004",
+      "majorName": "环境科学",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "4年，4600元/年",
+      "pdfPage": 389,
+      "bookPage": 341,
+      "track": "physics"
+    }
+  ]
+}

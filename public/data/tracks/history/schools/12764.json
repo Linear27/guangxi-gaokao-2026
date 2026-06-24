@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12764",
+    "schoolName": "四川建筑职业技术大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "四川省德阳市",
+    "consultPhone": "0838-2651788",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12764",
+      "schoolName": "四川建筑职业技术大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "四川省德阳市",
+      "consultPhone": "0838-2651788",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "工程造价",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5720,
+      "campus": null,
+      "remarks": "3 年,5720 元/年",
+      "pdfPage": 346,
+      "bookPage": 296
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14549",
+    "schoolName": "贵州农业职业学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "贵州省贵阳市",
+    "consultPhone": "0851-82513132",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14549",
+      "schoolName": "贵州农业职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "贵州省贵阳市",
+      "consultPhone": "0851-82513132",
+      "majorGroupCode": "151",
+      "majorGroupPlan": 6,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "畜牧兽医",
+      "planCount": 6,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3年，3850元/年",
+      "pdfPage": 682,
+      "bookPage": 634,
+      "track": "physics"
+    }
+  ]
+}

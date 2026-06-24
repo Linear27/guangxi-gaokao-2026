@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14080",
+    "schoolName": "山东城市建设职业学院",
+    "schoolTotalPlan": 8,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-51765777、51765766、67892888",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14080",
+      "schoolName": "山东城市建设职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-51765777、51765766、67892888",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "智能建造技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 6325,
+      "campus": null,
+      "remarks": "3 年,6325 元/年",
+      "pdfPage": 656,
+      "bookPage": 608,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14080",
+      "schoolName": "山东城市建设职业学院",
+      "schoolTotalPlan": 8,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-51765777、51765766、67892888",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 8,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "人工智能技术应用",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "3 年,5500 元/年",
+      "pdfPage": 656,
+      "bookPage": 608,
+      "track": "physics"
+    }
+  ]
+}

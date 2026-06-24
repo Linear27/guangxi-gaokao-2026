@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10242",
+    "schoolName": "哈尔滨体育学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "黑龙江省哈尔滨市",
+    "consultPhone": "0451-82766447",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批艺术类本科第二批",
+      "schoolCode": "10242",
+      "schoolName": "哈尔滨体育学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "黑龙江省哈尔滨市",
+      "consultPhone": "0451-82766447",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "舞蹈表演",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 9000,
+      "campus": null,
+      "remarks": "舞蹈类,4 年,9000 元/年,体检要求详见学校招生章程",
+      "pdfPage": 67,
+      "bookPage": 17
+    },
+    {
+      "track": "history",
+      "batchName": "本科提前批体育类",
+      "schoolCode": "10242",
+      "schoolName": "哈尔滨体育学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "黑龙江省哈尔滨市",
+      "consultPhone": "0451-82766447",
+      "majorGroupCode": "141",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "体育教育",
+      "planCount": 4,
+      "durationYears": 4,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "体育类,4 年,6000 元/年,不招色盲、色弱且单色识别不全考生，其他体检要求详见学校招生章程",
+      "pdfPage": 112,
+      "bookPage": 62
+    }
+  ]
+}

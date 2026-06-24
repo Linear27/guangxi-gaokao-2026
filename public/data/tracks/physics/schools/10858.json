@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10858",
+    "schoolName": "北京科技职业大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "北京市",
+    "consultPhone": "010-87220709",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10858",
+      "schoolName": "北京科技职业大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "北京市",
+      "consultPhone": "010-87220709",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "汽车工程技术",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "4 年,6000 元/年,不招色盲考生",
+      "pdfPage": 391,
+      "bookPage": 343,
+      "track": "physics"
+    }
+  ]
+}

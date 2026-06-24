@@ -1,0 +1,26 @@
+{
+  "title": "广西 2025 历史类院校专业组投档最低分参考",
+  "track": "history",
+  "year": 2025,
+  "generatedAt": "2026-06-24T17:22:59.229Z",
+  "counts": {
+    "admissionLines": 3636,
+    "scoreRanks": 429,
+    "batches": 9
+  },
+  "batches": {
+    "高职高专普通批": 861,
+    "高职高专提前批其他类": 11,
+    "高职高专提前批艺术类": 223,
+    "高职高专提前批体育类": 44,
+    "本科普通批": 1590,
+    "本科提前批其他二类": 25,
+    "本科提前批艺术类本科第二批": 698,
+    "本科提前批其他一类": 102,
+    "本科提前批体育类": 82
+  },
+  "files": {
+    "admissionLines": "/data/tracks/history/history/2025/guangxi-history-admission-lines.json",
+    "rankByScore": "/data/tracks/history/history/2025/guangxi-history-rank-by-score.json"
+  }
+}

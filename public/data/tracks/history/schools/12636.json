@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12636",
+    "schoolName": "成都东软学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "四川省成都市",
+    "consultPhone": "028-64888001",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12636",
+      "schoolName": "成都东软学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "四川省成都市",
+      "consultPhone": "028-64888001",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "电子商务",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 19080,
+      "campus": null,
+      "remarks": "4 年,19080 元/年",
+      "pdfPage": 251,
+      "bookPage": 201
+    }
+  ]
+}

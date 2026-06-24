@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14528",
+    "schoolName": "扬州中瑞酒店职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江苏省扬州市",
+    "consultPhone": "0514-85166798",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14528",
+      "schoolName": "扬州中瑞酒店职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省扬州市",
+      "consultPhone": "0514-85166798",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "人工智能数据工程技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "3 年，18000 元/年",
+      "pdfPage": 411,
+      "bookPage": 361
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14528",
+      "schoolName": "扬州中瑞酒店职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省扬州市",
+      "consultPhone": "0514-85166798",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "酒店管理与数字化运营",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 20000,
+      "campus": null,
+      "remarks": "3 年，20000 元/年",
+      "pdfPage": 411,
+      "bookPage": 361
+    }
+  ]
+}

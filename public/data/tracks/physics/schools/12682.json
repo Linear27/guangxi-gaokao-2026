@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12682",
+    "schoolName": "江苏医药职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "江苏省盐城市",
+    "consultPhone": "0515-88588616",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12682",
+      "schoolName": "江苏医药职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "江苏省盐城市",
+      "consultPhone": "0515-88588616",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 6200,
+      "campus": null,
+      "remarks": "3 年,6200 元/年,不招色盲、色弱考生",
+      "pdfPage": 600,
+      "bookPage": 552,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12682",
+      "schoolName": "江苏医药职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "江苏省盐城市",
+      "consultPhone": "0515-88588616",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "医学检验技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6200,
+      "campus": null,
+      "remarks": "3 年,6200 元/年,不招色盲、色弱考生",
+      "pdfPage": 600,
+      "bookPage": 552,
+      "track": "physics"
+    }
+  ]
+}

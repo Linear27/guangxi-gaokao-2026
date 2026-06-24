@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13037",
+    "schoolName": "怀化职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "湖南省怀化市",
+    "consultPhone": "0745-2775611",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13037",
+      "schoolName": "怀化职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "湖南省怀化市",
+      "consultPhone": "0745-2775611",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "智能控制技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年, 4600 元/年",
+      "pdfPage": 358,
+      "bookPage": 308
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13037",
+      "schoolName": "怀化职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "湖南省怀化市",
+      "consultPhone": "0745-2775611",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "室内艺术设计",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4600,
+      "campus": null,
+      "remarks": "3 年, 4600 元/年",
+      "pdfPage": 358,
+      "bookPage": 308
+    }
+  ]
+}

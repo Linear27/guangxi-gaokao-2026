@@ -1,14 +1,17 @@
 import { lazy, Suspense, useDeferredValue, useEffect, useMemo, useState, useTransition } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { Navigate, useParams, useSearchParams } from 'react-router-dom'
 import { Alert, Box, Card, CardContent, Stack, Typography } from '@mui/material'
 import { BatchFilter } from '../components/BatchFilter'
 import { loadAdmissionLines2025, loadProgramsData, loadSchoolIndexData } from '../data/loadSiteData'
-import type { AdmissionLine, Program, School, SummaryData } from '../types'
+import type { AdmissionLine, Program, School, SummaryData, Track } from '../types'
 import {
   applyIndexedSearchFilters,
   buildAdmissionLineIndex,
   buildProgramSearchIndex,
   formatNumber,
+  isTrack,
+  searchRoute,
+  trackLabel,
   type SearchFilters,
 } from '../data/derive'
 
@@ -17,7 +20,7 @@ const ProgramGrid = lazy(() =>
 )
 
 type SearchPageProps = {
-  summary: SummaryData
+  summaries: Record<Track, SummaryData>
 }
 
 const initialFilters: SearchFilters = {
@@ -29,7 +32,9 @@ const initialFilters: SearchFilters = {
   secondSubject: '',
 }
 
-export function SearchPage({ summary }: SearchPageProps) {
+export function SearchPage({ summaries }: SearchPageProps) {
+  const params = useParams()
+  const track = params.track
   const [searchParams] = useSearchParams()
   const keywordParam = searchParams.get('keyword')?.trim() ?? ''
   const [filters, setFilters] = useState<SearchFilters>({ ...initialFilters, keyword: keywordParam })
@@ -40,24 +45,43 @@ export function SearchPage({ summary }: SearchPageProps) {
   const [admissionLines, setAdmissionLines] = useState<AdmissionLine[]>([])
   const [error, setError] = useState<string | null>(null)
 
+  const activeTrack = isTrack(track) ? track : null
+  const summary = activeTrack ? summaries[activeTrack] : summaries.physics
+
   useEffect(() => {
+    if (!activeTrack) return
     let alive = true
-    Promise.all([loadProgramsData(), loadSchoolIndexData(), loadAdmissionLines2025()])
-      .then(([programsPayload, schoolsPayload, admissionLinesPayload]) => {
+    setPrograms([])
+    setSchools(null)
+    setAdmissionLines([])
+    setError(null)
+
+    Promise.all([loadProgramsData(activeTrack), loadSchoolIndexData(activeTrack)])
+      .then(([programsPayload, schoolsPayload]) => {
         if (!alive) return
         setPrograms(programsPayload.programs)
         setSchools(schoolsPayload.schools)
-        setAdmissionLines(admissionLinesPayload.admissionLines)
       })
       .catch((loadError: unknown) => {
         if (alive) {
           setError(loadError instanceof Error ? loadError.message : '检索数据加载失败')
         }
       })
+
+    loadAdmissionLines2025(activeTrack)
+      .then((admissionLinesPayload) => {
+        if (alive) setAdmissionLines(admissionLinesPayload.admissionLines)
+      })
+      .catch((loadError: unknown) => {
+        if (alive) {
+          setError(loadError instanceof Error ? loadError.message : '2025 参考线加载失败')
+        }
+      })
+
     return () => {
       alive = false
     }
-  }, [])
+  }, [activeTrack])
 
   useEffect(() => {
     setFilters((currentFilters) =>
@@ -76,13 +100,14 @@ export function SearchPage({ summary }: SearchPageProps) {
   )
   const visibleProgramCount = programs.length > 0 ? filteredPrograms.length : summary.counts.programs
 
+  if (!activeTrack) return <Navigate replace to={searchRoute('physics')} />
   if (error) return <Alert severity="error">{error}</Alert>
 
   return (
     <Stack spacing={2}>
       <Stack spacing={0.5}>
         <Typography component="h1" variant="h1">
-          招生计划检索
+          {trackLabel(activeTrack)}招生计划检索
         </Typography>
         <Typography color="text.secondary">
           当前显示 {formatNumber(visibleProgramCount)} 条，数据总量 {formatNumber(summary.counts.programs)} 条。
@@ -103,7 +128,7 @@ export function SearchPage({ summary }: SearchPageProps) {
       </Card>
       <Suspense fallback={null}>
         {programs.length > 0 ? (
-          <ProgramGrid admissionLineIndex={admissionLineIndex} programs={filteredPrograms} />
+          <ProgramGrid admissionLineIndex={admissionLineIndex} programs={filteredPrograms} track={activeTrack} />
         ) : (
           <Box sx={{ height: 640, minHeight: 360 }} />
         )}

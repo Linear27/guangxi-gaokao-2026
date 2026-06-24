@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13851",
+    "schoolName": "安徽邮电职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "安徽省合肥市",
+    "consultPhone": "0551-62231188",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "13851",
+      "schoolName": "安徽邮电职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-62231188",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "现代移动通信技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6500,
+      "campus": null,
+      "remarks": "3 年,6500 元/年",
+      "pdfPage": 642,
+      "bookPage": 594,
+      "track": "physics"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14614",
+    "schoolName": "贵州健康职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "贵州省铜仁市",
+    "consultPhone": "0856-5218571",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14614",
+      "schoolName": "贵州健康职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "贵州省铜仁市",
+      "consultPhone": "0856-5218571",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3 年，3850 元/年，不招色盲、色弱考生",
+      "pdfPage": 415,
+      "bookPage": 365
+    }
+  ]
+}

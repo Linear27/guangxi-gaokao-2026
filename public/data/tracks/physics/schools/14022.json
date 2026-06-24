@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14022",
+    "schoolName": "天津海运职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "天津市",
+    "consultPhone": "022-28779900",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专提前批其他类",
+      "schoolCode": "14022",
+      "schoolName": "天津海运职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "天津市",
+      "consultPhone": "022-28779900",
+      "majorGroupCode": "150",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "航海技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "3年,5500 元/年,只招男生,具体要求详见学院招生章程",
+      "pdfPage": 561,
+      "bookPage": 513,
+      "track": "physics"
+    }
+  ]
+}

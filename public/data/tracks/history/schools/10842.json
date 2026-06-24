@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10842",
+    "schoolName": "三门峡职业技术学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "河南省三门峡市",
+    "consultPhone": "0398-2183558",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "10842",
+      "schoolName": "三门峡职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河南省三门峡市",
+      "consultPhone": "0398-2183558",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电子信息工程技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "3 年, 4200 元/年",
+      "pdfPage": 317,
+      "bookPage": 267
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "10842",
+      "schoolName": "三门峡职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河南省三门峡市",
+      "consultPhone": "0398-2183558",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5280,
+      "campus": null,
+      "remarks": "3 年,5280 元/年",
+      "pdfPage": 317,
+      "bookPage": 267
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12956",
+    "schoolName": "揭阳职业技术学院",
+    "schoolTotalPlan": 12,
+    "schoolLocation": "广东省揭阳市",
+    "consultPhone": "0663-8859905",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "12956",
+      "schoolName": "揭阳职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "广东省揭阳市",
+      "consultPhone": "0663-8859905",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 12,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "体育教育(师范)",
+      "planCount": 12,
+      "durationYears": 3,
+      "tuitionPerYear": 6410,
+      "campus": null,
+      "remarks": "体育类，师范类，3 年，6410 元/年",
+      "pdfPage": 309,
+      "bookPage": 259
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12956",
+      "schoolName": "揭阳职业技术学院",
+      "schoolTotalPlan": 12,
+      "schoolLocation": "广东省揭阳市",
+      "consultPhone": "0663-8859905",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "服装设计与工艺",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 6410,
+      "campus": null,
+      "remarks": "3年，6410元/年",
+      "pdfPage": 354,
+      "bookPage": 304
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14252",
+    "schoolName": "贵州职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "贵州省贵阳市",
+    "consultPhone": "0851-84827117",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批体育类",
+      "schoolCode": "14252",
+      "schoolName": "贵州职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "贵州省贵阳市",
+      "consultPhone": "0851-84827117",
+      "majorGroupCode": "103",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "运动训练",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "体育类,3 年,3850 元/年",
+      "pdfPage": 310,
+      "bookPage": 260
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14252",
+      "schoolName": "贵州职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "贵州省贵阳市",
+      "consultPhone": "0851-84827117",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "旅游管理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 3850,
+      "campus": null,
+      "remarks": "3 年,3850 元/年",
+      "pdfPage": 397,
+      "bookPage": 347
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12619",
+    "schoolName": "广州南方学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "17876571711",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "12619",
+      "schoolName": "广州南方学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "17876571711",
+      "majorGroupCode": "122",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "004",
+      "majorName": "电气工程及其自动化",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 36000,
+      "campus": null,
+      "remarks": "4 年，36000 元/年",
+      "pdfPage": 459,
+      "bookPage": 411,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "12619",
+      "schoolName": "广州南方学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "17876571711",
+      "majorGroupCode": "122",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "005",
+      "majorName": "计算机科学与技术",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 36000,
+      "campus": null,
+      "remarks": "4 年,36000 元/年",
+      "pdfPage": 459,
+      "bookPage": 411,
+      "track": "physics"
+    }
+  ]
+}

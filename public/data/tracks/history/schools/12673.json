@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12673",
+    "schoolName": "内蒙古电子信息职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "内蒙古自治区呼和浩特市",
+    "consultPhone": "0471-4909810",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12673",
+      "schoolName": "内蒙古电子信息职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "内蒙古自治区呼和浩特市",
+      "consultPhone": "0471-4909810",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "数字媒体技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 342,
+      "bookPage": 292
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12673",
+      "schoolName": "内蒙古电子信息职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "内蒙古自治区呼和浩特市",
+      "consultPhone": "0471-4909810",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "广播影视节目制作",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 342,
+      "bookPage": 292
+    }
+  ]
+}

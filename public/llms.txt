@@ -1,34 +1,24 @@
-# 2026年广西高考指南招生计划篇（物理类）
+# 广西 2026 招生计划查询
 
-这是面向考生的广西招生计划静态站，数据基于《广西高考指南招生计划篇》整理。
+这是面向考生的广西招生计划静态查询站。
 
-## Public Data
+## Data
 
-- 主数据: /data/site.json
-- 首页摘要: /data/summary.json
-- 院校目录: /data/schools.json
-- 检索计划: /data/programs.json
-- 院校切片: /data/schools/{schoolCode}.json
-- 批次切片: /data/batches/{batchSlug}.json
-- 字段说明: /data/schema.json
 - 数据摘要: /data/manifest.json
-- 2025参考线: /data/history/2025/guangxi-physics-admission-lines.json
-- 2025位次表: /data/history/2025/guangxi-physics-rank-by-score.json
+- 物理类摘要: /data/tracks/physics/summary.json
+- 物理类计划: /data/tracks/physics/programs.json
+- 历史类摘要: /data/tracks/history/summary.json
+- 历史类计划: /data/tracks/history/programs.json
 
-## Public Routes
+## Routes
 
 - 首页: /
-- 检索页: /search
-- 院校页: /schools/{schoolCode}
-- 批次页: /batches/{batchSlug}
+- 物理类检索: /physics/search
+- 历史类检索: /history/search
+- 院校页: /{track}/schools/{schoolCode}
+- 批次页: /{track}/batches/{batchSlug}
 
 ## Counts
 
-- 院校: 1998
-- 批次: 14
-- 专业计划: 28852
-
-## Notes For Agents
-
-- /data/site.json 是唯一公共主数据。
-- 字段说明和特殊标签含义见 /data/schema.json。
+- 物理类: 1998 所院校，28852 条专业计划
+- 历史类: 1789 所院校，14806 条专业计划

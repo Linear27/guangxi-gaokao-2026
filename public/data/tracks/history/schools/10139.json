@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10139",
+    "schoolName": "内蒙古财经大学",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "内蒙古自治区呼和浩特市",
+    "consultPhone": "0471-5300555、5300312",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10139",
+      "schoolName": "内蒙古财经大学",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "内蒙古自治区呼和浩特市",
+      "consultPhone": "0471-5300555、5300312",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "资产评估",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4 年, 4400 元/年",
+      "pdfPage": 150,
+      "bookPage": 100
+    }
+  ]
+}

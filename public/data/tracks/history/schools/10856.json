@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10856",
+    "schoolName": "上海工程技术大学",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-62750183",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10856",
+      "schoolName": "上海工程技术大学",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-62750183",
+      "majorGroupCode": "106",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "040",
+      "majorName": "服装设计与工程",
+      "planCount": 8,
+      "durationYears": 4,
+      "tuitionPerYear": 7000,
+      "campus": "松江校区办学",
+      "remarks": "4 年,7000 元/年,在松江校区办学, “卓越工程师教育培养计划” 试点专业",
+      "pdfPage": 223,
+      "bookPage": 173
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10856",
+      "schoolName": "上海工程技术大学",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-62750183",
+      "majorGroupCode": "106",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "041",
+      "majorName": "物流管理",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 6500,
+      "campus": "松江校区办学",
+      "remarks": "4 年,6500 元/年,在松江校区办学,产教融合试验班",
+      "pdfPage": 223,
+      "bookPage": 173
+    }
+  ]
+}

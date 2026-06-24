@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13448",
+    "schoolName": "黑龙江商业职业学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "黑龙江省大庆市",
+    "consultPhone": "0459-6288123",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13448",
+      "schoolName": "黑龙江商业职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省大庆市",
+      "consultPhone": "0459-6288123",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "连锁经营与管理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年,6000 元/年",
+      "pdfPage": 364,
+      "bookPage": 314
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13448",
+      "schoolName": "黑龙江商业职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "黑龙江省大庆市",
+      "consultPhone": "0459-6288123",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "现代物流管理",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6000,
+      "campus": null,
+      "remarks": "3 年,6000 元/年",
+      "pdfPage": 364,
+      "bookPage": 314
+    }
+  ]
+}

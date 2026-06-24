@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12331",
+    "schoolName": "山东女子学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-86526113",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12331",
+      "schoolName": "山东女子学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-86526113",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "商务英语",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "4 年,5000 元/年,要求外语语种为英语",
+      "pdfPage": 250,
+      "bookPage": 200
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12331",
+      "schoolName": "山东女子学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-86526113",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "网络与新媒体",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 4400,
+      "campus": null,
+      "remarks": "4年，4400元/年",
+      "pdfPage": 250,
+      "bookPage": 200
+    }
+  ]
+}

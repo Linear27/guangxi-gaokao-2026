@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10683",
+    "schoolName": "昭通学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "云南省昭通市",
+    "consultPhone": "0870-2121914",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10683",
+      "schoolName": "昭通学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "云南省昭通市",
+      "consultPhone": "0870-2121914",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "汉语言文学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4200,
+      "campus": null,
+      "remarks": "师范类，4 年，4200 元/年",
+      "pdfPage": 214,
+      "bookPage": 164
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10683",
+      "schoolName": "昭通学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "云南省昭通市",
+      "consultPhone": "0870-2121914",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "行政管理",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "4 年,4500 元/年",
+      "pdfPage": 214,
+      "bookPage": 164
+    }
+  ]
+}

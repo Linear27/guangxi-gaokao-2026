@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14106",
+    "schoolName": "辽宁地质工程职业学院",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "辽宁省丹东市",
+    "consultPhone": "0415-6228800",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14106",
+      "schoolName": "辽宁地质工程职业学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "辽宁省丹东市",
+      "consultPhone": "0415-6228800",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "006",
+      "majorName": "宝玉石鉴定与加工",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3 年, 4500 元/年",
+      "pdfPage": 388,
+      "bookPage": 338
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14106",
+      "schoolName": "辽宁地质工程职业学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "辽宁省丹东市",
+      "consultPhone": "0415-6228800",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "机电一体化技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3 年, 4500 元/年",
+      "pdfPage": 388,
+      "bookPage": 338
+    }
+  ]
+}

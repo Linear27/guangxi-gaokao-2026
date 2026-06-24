@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12059",
+    "schoolName": "广东培正学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-86710202",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12059",
+      "schoolName": "广东培正学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-86710202",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "法学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 32800,
+      "campus": null,
+      "remarks": "4 年,32800 元/年",
+      "pdfPage": 248,
+      "bookPage": 198
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12059",
+      "schoolName": "广东培正学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-86710202",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "广告学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 32800,
+      "campus": null,
+      "remarks": "4 年,32800 元/年",
+      "pdfPage": 248,
+      "bookPage": 198
+    }
+  ]
+}

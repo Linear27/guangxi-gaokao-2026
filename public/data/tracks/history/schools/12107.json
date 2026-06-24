@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12107",
+    "schoolName": "贵州警察学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "贵州省贵阳市",
+    "consultPhone": "0851-85407599、85400997",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12107",
+      "schoolName": "贵州警察学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "贵州省贵阳市",
+      "consultPhone": "0851-85407599、85400997",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "法学",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 4100,
+      "campus": null,
+      "remarks": "4 年,4100 元/年",
+      "pdfPage": 248,
+      "bookPage": 198
+    }
+  ]
+}

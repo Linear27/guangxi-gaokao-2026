@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12921",
+    "schoolName": "正德职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江苏省南京市",
+    "consultPhone": "025-52111866",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12921",
+      "schoolName": "正德职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江苏省南京市",
+      "consultPhone": "025-52111866",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "大数据与会计",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 16000,
+      "campus": null,
+      "remarks": "3 年,16000 元/年",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    }
+  ]
+}

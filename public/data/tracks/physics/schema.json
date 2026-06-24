@@ -1,0 +1,109 @@
+{
+  "title": "2026年广西高考指南招生计划篇（物理类）",
+  "topLevelKeys": [
+    "meta",
+    "frontMatter",
+    "militaryPlan",
+    "indexEntries",
+    "schools",
+    "batches",
+    "programs"
+  ],
+  "programFields": {
+    "batchName": {
+      "description": "招生批次名称。",
+      "nullable": false
+    },
+    "schoolCode": {
+      "description": "院校代码。",
+      "nullable": false
+    },
+    "schoolName": {
+      "description": "院校名称。",
+      "nullable": false
+    },
+    "schoolTotalPlan": {
+      "description": "院校在当前连续计划块中标注的计划数，未标注时为 null。",
+      "nullable": true
+    },
+    "schoolLocation": {
+      "description": "学校所在地。",
+      "nullable": true
+    },
+    "consultPhone": {
+      "description": "招生咨询电话。",
+      "nullable": true
+    },
+    "majorGroupCode": {
+      "description": "专业组代码。",
+      "nullable": false
+    },
+    "majorGroupPlan": {
+      "description": "专业组计划数，未标注时为 null。",
+      "nullable": true
+    },
+    "firstSubject": {
+      "description": "首选科目要求。",
+      "nullable": true
+    },
+    "secondSubject": {
+      "description": "再选科目要求。",
+      "nullable": true
+    },
+    "majorCode": {
+      "description": "专业代码。",
+      "nullable": false
+    },
+    "majorName": {
+      "description": "专业名称。",
+      "nullable": false
+    },
+    "planCount": {
+      "description": "专业计划数；源书不编制分省或分专业计划时为公开说明标签。",
+      "nullable": false
+    },
+    "durationYears": {
+      "description": "学制年限。",
+      "nullable": false
+    },
+    "tuitionPerYear": {
+      "description": "学费/年；政策免缴或军队承担时为公开说明标签。",
+      "nullable": false
+    },
+    "campus": {
+      "description": "校区信息，未标注时为 null。",
+      "nullable": true
+    },
+    "remarks": {
+      "description": "公开备注信息。",
+      "nullable": true
+    },
+    "pdfPage": {
+      "description": "PDF 页码。",
+      "nullable": false
+    },
+    "bookPage": {
+      "description": "书内页码。",
+      "nullable": true
+    }
+  },
+  "policyLabels": {
+    "不编制分省计划": "艺术校考或戏曲类等不在本书编制分省专业计划的招生项目。",
+    "以高校公布计划为准": "高水平运动队等由高校公布项目计划和录取规则的招生项目。",
+    "不作分省计划": "源书明确标注不作分省计划，以院校规则或实际录取为准。",
+    "军队承担": "军队院校有军籍学员学习费用由军队承担。",
+    "免收学费": "对应政策明确免收学费的项目，例如人防定向。"
+  },
+  "history2025Fields": {
+    "year": "参考年份。",
+    "batchName": "2025 年招生批次名称。",
+    "schoolCode": "院校代码。",
+    "schoolName": "院校名称。",
+    "majorGroupCode": "院校专业组代码。",
+    "minScore": "院校专业组投档最低分。",
+    "rank": "投档最低分对应的物理类位次。",
+    "remarks": "公开备注信息。",
+    "sourceTitle": "公开来源标题。",
+    "sourceUrl": "公开来源链接。"
+  }
+}

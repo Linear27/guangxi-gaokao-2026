@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13648",
+    "schoolName": "贵州黔南经济学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "贵州省黔南布依族苗族自治州",
+    "consultPhone": "0854-7065552",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "13648",
+      "schoolName": "贵州黔南经济学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "贵州省黔南布依族苗族自治州",
+      "consultPhone": "0854-7065552",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 4,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "互联网金融",
+      "planCount": 4,
+      "durationYears": 4,
+      "tuitionPerYear": 18000,
+      "campus": null,
+      "remarks": "4 年，18000 元/年",
+      "pdfPage": 498,
+      "bookPage": 450,
+      "track": "physics"
+    }
+  ]
+}

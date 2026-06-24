@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10164",
+    "schoolName": "沈阳医学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "辽宁省沈阳市",
+    "consultPhone": "024-62215829",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10164",
+      "schoolName": "沈阳医学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "辽宁省沈阳市",
+      "consultPhone": "024-62215829",
+      "majorGroupCode": "108",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "生物",
+      "majorCode": "022",
+      "majorName": "护理学",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "4 年,5500 元/年,入校后外语课程只安排英语教学。不招色盲、色弱考生",
+      "pdfPage": 151,
+      "bookPage": 101
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14086",
+    "schoolName": "四川文化产业职业学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "四川省成都市",
+    "consultPhone": "028-85766716",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专提前批艺术类",
+      "schoolCode": "14086",
+      "schoolName": "四川文化产业职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "四川省成都市",
+      "consultPhone": "028-85766716",
+      "majorGroupCode": "201",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "产品艺术设计",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "美术与设计类,3 年,8000 元/年,不招色盲考生",
+      "pdfPage": 302,
+      "bookPage": 252
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14086",
+      "schoolName": "四川文化产业职业学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "四川省成都市",
+      "consultPhone": "028-85766716",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "跨境电子商务",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4800,
+      "campus": null,
+      "remarks": "3年，4800元/年",
+      "pdfPage": 388,
+      "bookPage": 338
+    }
+  ]
+}

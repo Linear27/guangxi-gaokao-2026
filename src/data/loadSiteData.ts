@@ -4,39 +4,40 @@ import type {
   ProgramsData,
   SchoolIndexData,
   SchoolPayload,
-  SiteData,
   SummaryData,
+  Track,
 } from '../types'
+import {
+  batchPayloadUrl,
+  historyAdmissionLinesUrl,
+  programsUrl,
+  schoolPayloadUrl,
+  schoolsUrl,
+  summaryUrl,
+} from './derive'
 
-export async function loadSiteData(): Promise<SiteData> {
-  return loadJson<SiteData>('/data/site.json', 'site.json')
+export async function loadSummaryData(track: Track): Promise<SummaryData> {
+  return loadJson<SummaryData>(summaryUrl(track), `${track} summary.json`)
 }
 
-export async function loadSummaryData(): Promise<SummaryData> {
-  return loadJson<SummaryData>('/data/summary.json', 'summary.json')
+export async function loadProgramsData(track: Track): Promise<ProgramsData> {
+  return loadJson<ProgramsData>(programsUrl(track), `${track} programs.json`)
 }
 
-export async function loadProgramsData(): Promise<ProgramsData> {
-  return loadJson<ProgramsData>('/data/programs.json', 'programs.json')
+export async function loadSchoolIndexData(track: Track): Promise<SchoolIndexData> {
+  return loadJson<SchoolIndexData>(schoolsUrl(track), `${track} schools.json`)
 }
 
-export async function loadSchoolIndexData(): Promise<SchoolIndexData> {
-  return loadJson<SchoolIndexData>('/data/schools.json', 'schools.json')
+export async function loadSchoolPayload(track: Track, schoolCode: string): Promise<SchoolPayload> {
+  return loadJson<SchoolPayload>(schoolPayloadUrl(track, schoolCode), '院校数据')
 }
 
-export async function loadSchoolPayload(schoolCode: string): Promise<SchoolPayload> {
-  return loadJson<SchoolPayload>(`/data/schools/${encodeURIComponent(schoolCode)}.json`, '院校数据')
+export async function loadBatchPayload(track: Track, batchSlug: string): Promise<BatchPayload> {
+  return loadJson<BatchPayload>(batchPayloadUrl(track, batchSlug), '批次数据')
 }
 
-export async function loadBatchPayload(batchSlug: string): Promise<BatchPayload> {
-  return loadJson<BatchPayload>(`/data/batches/${encodeURIComponent(batchSlug)}.json`, '批次数据')
-}
-
-export async function loadAdmissionLines2025(): Promise<AdmissionLinesData> {
-  return loadJson<AdmissionLinesData>(
-    '/data/history/2025/guangxi-physics-admission-lines.json',
-    '2025 参考线',
-  )
+export async function loadAdmissionLines2025(track: Track): Promise<AdmissionLinesData> {
+  return loadJson<AdmissionLinesData>(historyAdmissionLinesUrl(track), '2025 参考线')
 }
 
 async function loadJson<T>(url: string, label: string): Promise<T> {

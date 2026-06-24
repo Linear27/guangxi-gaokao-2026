@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13907",
+    "schoolName": "上海中华职业技术学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "上海市",
+    "consultPhone": "021-60796666、61810775、61810776",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13907",
+      "schoolName": "上海中华职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-60796666、61810775、61810776",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "智能机器人技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 25000,
+      "campus": null,
+      "remarks": "3 年,25000 元/年",
+      "pdfPage": 379,
+      "bookPage": 329
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13907",
+      "schoolName": "上海中华职业技术学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "上海市",
+      "consultPhone": "021-60796666、61810775、61810776",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "人工智能技术应用",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 25000,
+      "campus": null,
+      "remarks": "3 年,25000 元/年",
+      "pdfPage": 379,
+      "bookPage": 329
+    }
+  ]
+}

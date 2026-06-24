@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14001",
+    "schoolName": "聊城大学东昌学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "山东省聊城市",
+    "consultPhone": "0635-8520223",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "14001",
+      "schoolName": "聊城大学东昌学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "山东省聊城市",
+      "consultPhone": "0635-8520223",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "学前教育",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 15600,
+      "campus": null,
+      "remarks": "师范类，4年，15600元/年",
+      "pdfPage": 281,
+      "bookPage": 231
+    }
+  ]
+}

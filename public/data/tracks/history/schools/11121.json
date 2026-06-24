@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11121",
+    "schoolName": "私立华联学院",
+    "schoolTotalPlan": 7,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-82373721",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11121",
+      "schoolName": "私立华联学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-82373721",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "工商企业管理",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 19000,
+      "campus": null,
+      "remarks": "3 年，19000 元/年",
+      "pdfPage": 320,
+      "bookPage": 270
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11121",
+      "schoolName": "私立华联学院",
+      "schoolTotalPlan": 7,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-82373721",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "005",
+      "majorName": "融媒体技术与运营",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 19000,
+      "campus": null,
+      "remarks": "3 年, 19000 元/年",
+      "pdfPage": 320,
+      "bookPage": 270
+    }
+  ]
+}

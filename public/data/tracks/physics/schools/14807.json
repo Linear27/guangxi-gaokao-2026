@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14807",
+    "schoolName": "吉安幼儿师范高等专科学校",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省吉安市",
+    "consultPhone": "0796-8236599",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14807",
+      "schoolName": "吉安幼儿师范高等专科学校",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省吉安市",
+      "consultPhone": "0796-8236599",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "007",
+      "majorName": "电子信息工程技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年，5000 元/年",
+      "pdfPage": 698,
+      "bookPage": 650,
+      "track": "physics"
+    }
+  ]
+}

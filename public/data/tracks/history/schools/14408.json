@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14408",
+    "schoolName": "惠州卫生职业技术学院",
+    "schoolTotalPlan": 9,
+    "schoolLocation": "广东省惠州市",
+    "consultPhone": "0752-2366800",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14408",
+      "schoolName": "惠州卫生职业技术学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "广东省惠州市",
+      "consultPhone": "0752-2366800",
+      "majorGroupCode": "100",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "老年保健与管理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 6410,
+      "campus": null,
+      "remarks": "3 年,6410 元/年,不招色盲、色弱考生",
+      "pdfPage": 405,
+      "bookPage": 355
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14408",
+      "schoolName": "惠州卫生职业技术学院",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "广东省惠州市",
+      "consultPhone": "0752-2366800",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 7,
+      "firstSubject": "历史",
+      "secondSubject": "生物",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 7,
+      "durationYears": 3,
+      "tuitionPerYear": 6410,
+      "campus": null,
+      "remarks": "3 年,6410 元/年,不招色盲、色弱考生。请男生身高低于 160cm、女生身高低于 155cm 的慎重报考",
+      "pdfPage": 405,
+      "bookPage": 355
+    }
+  ]
+}

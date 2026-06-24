@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10383",
+    "schoolName": "铜陵学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "安徽省铜陵市",
+    "consultPhone": "0562-2823456",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10383",
+      "schoolName": "铜陵学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "安徽省铜陵市",
+      "consultPhone": "0562-2823456",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "地理信息科学",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 4900,
+      "campus": null,
+      "remarks": "4 年，4900 元/年",
+      "pdfPage": 241,
+      "bookPage": 193,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "10383",
+      "schoolName": "铜陵学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "安徽省铜陵市",
+      "consultPhone": "0562-2823456",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "002",
+      "majorName": "土木工程",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 5390,
+      "campus": null,
+      "remarks": "4 年，5390 元/年",
+      "pdfPage": 241,
+      "bookPage": 193,
+      "track": "physics"
+    }
+  ]
+}

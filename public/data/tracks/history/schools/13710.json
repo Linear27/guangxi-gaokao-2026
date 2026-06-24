@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13710",
+    "schoolName": "中山火炬职业技术学院",
+    "schoolTotalPlan": 15,
+    "schoolLocation": "广东省中山市",
+    "consultPhone": "0760-88291862",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13710",
+      "schoolName": "中山火炬职业技术学院",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "广东省中山市",
+      "consultPhone": "0760-88291862",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 15,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "数智营销",
+      "planCount": 15,
+      "durationYears": 3,
+      "tuitionPerYear": 5250,
+      "campus": null,
+      "remarks": "3 年，5250 元/年",
+      "pdfPage": 368,
+      "bookPage": 318
+    }
+  ]
+}

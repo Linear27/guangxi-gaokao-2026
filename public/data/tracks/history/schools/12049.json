@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12049",
+    "schoolName": "吉林交通职业技术学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "吉林省长春市",
+    "consultPhone": "0431-84975999",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12049",
+      "schoolName": "吉林交通职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "吉林省长春市",
+      "consultPhone": "0431-84975999",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "工业机器人技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": "待定",
+      "campus": null,
+      "remarks": "3 年,学费待定",
+      "pdfPage": 328,
+      "bookPage": 278
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12049",
+      "schoolName": "吉林交通职业技术学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "吉林省长春市",
+      "consultPhone": "0431-84975999",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "智能网联汽车技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 328,
+      "bookPage": 278
+    }
+  ]
+}

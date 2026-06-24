@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "11499",
+    "schoolName": "福建华南女子职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "福建省福州市",
+    "consultPhone": "0591-87429966",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "11499",
+      "schoolName": "福建华南女子职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省福州市",
+      "consultPhone": "0591-87429966",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "会展策划与管理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 10800,
+      "campus": null,
+      "remarks": "3 年，10800 元/年",
+      "pdfPage": 575,
+      "bookPage": 527,
+      "track": "physics"
+    }
+  ]
+}

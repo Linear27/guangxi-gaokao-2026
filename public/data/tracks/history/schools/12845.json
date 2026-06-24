@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12845",
+    "schoolName": "湖南邮电职业技术学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "湖南省长沙市",
+    "consultPhone": "0731-85201868",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12845",
+      "schoolName": "湖南邮电职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "湖南省长沙市",
+      "consultPhone": "0731-85201868",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "人工智能技术应用",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5060,
+      "campus": null,
+      "remarks": "3 年，5060 元/年",
+      "pdfPage": 349,
+      "bookPage": 299
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12845",
+      "schoolName": "湖南邮电职业技术学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "湖南省长沙市",
+      "consultPhone": "0731-85201868",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "现代通信技术(数据中心方向)",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5060,
+      "campus": null,
+      "remarks": "3 年, 5060 元/年",
+      "pdfPage": 349,
+      "bookPage": 299
+    }
+  ]
+}

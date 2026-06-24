@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14472",
+    "schoolName": "渤海理工职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "河北省沧州市",
+    "consultPhone": "0317-7557996",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14472",
+      "schoolName": "渤海理工职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "河北省沧州市",
+      "consultPhone": "0317-7557996",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 14000,
+      "campus": null,
+      "remarks": "3 年,14000 元/年",
+      "pdfPage": 677,
+      "bookPage": 629,
+      "track": "physics"
+    }
+  ]
+}

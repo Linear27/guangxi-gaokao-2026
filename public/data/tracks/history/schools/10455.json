@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "10455",
+    "schoolName": "菏泽学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "山东省菏泽市",
+    "consultPhone": "0530-5668117、5525186",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10455",
+      "schoolName": "菏泽学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "山东省菏泽市",
+      "consultPhone": "0530-5668117、5525186",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "建筑学",
+      "planCount": 1,
+      "durationYears": 5,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "5 年,5500 元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10455",
+      "schoolName": "菏泽学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "山东省菏泽市",
+      "consultPhone": "0530-5668117、5525186",
+      "majorGroupCode": "111",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "健康服务与管理",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "4 年，5500 元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    }
+  ]
+}

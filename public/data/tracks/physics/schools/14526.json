@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14526",
+    "schoolName": "辽宁特殊教育师范高等专科学校",
+    "schoolTotalPlan": 9,
+    "schoolLocation": "辽宁省沈阳市",
+    "consultPhone": "024-24791718",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14526",
+      "schoolName": "辽宁特殊教育师范高等专科学校",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "辽宁省沈阳市",
+      "consultPhone": "024-24791718",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 9,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "老年保健与管理",
+      "planCount": 4,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3 年, 4500 元/年",
+      "pdfPage": 681,
+      "bookPage": 633,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14526",
+      "schoolName": "辽宁特殊教育师范高等专科学校",
+      "schoolTotalPlan": 9,
+      "schoolLocation": "辽宁省沈阳市",
+      "consultPhone": "024-24791718",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 9,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "电子商务",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 4500,
+      "campus": null,
+      "remarks": "3年，4500元/年",
+      "pdfPage": 681,
+      "bookPage": 633,
+      "track": "physics"
+    }
+  ]
+}

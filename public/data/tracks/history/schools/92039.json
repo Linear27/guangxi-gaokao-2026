@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "92039",
+    "schoolName": "武警警官学院",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "四川省成都市",
+    "consultPhone": "0771-2895451",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科提前批其他二类",
+      "schoolCode": "92039",
+      "schoolName": "武警警官学院",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "四川省成都市",
+      "consultPhone": "0771-2895451",
+      "majorGroupCode": "811",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "民族学(机动分队指挥警官)",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": "军队承担",
+      "campus": null,
+      "remarks": "4 年,男,通用标准合格,要求外语语种为英语",
+      "pdfPage": 128,
+      "bookPage": 78
+    }
+  ]
+}

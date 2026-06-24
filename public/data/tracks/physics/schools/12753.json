@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12753",
+    "schoolName": "绵阳职业技术学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "四川省绵阳市",
+    "consultPhone": "0816-2202104",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12753",
+      "schoolName": "绵阳职业技术学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "四川省绵阳市",
+      "consultPhone": "0816-2202104",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "建筑材料工程技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5720,
+      "campus": null,
+      "remarks": "3 年,5720 元/年",
+      "pdfPage": 604,
+      "bookPage": 556,
+      "track": "physics"
+    }
+  ]
+}

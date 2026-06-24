@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10543",
+    "schoolName": "湖南理工大学",
+    "schoolTotalPlan": 1,
+    "schoolLocation": "湖南省岳阳市",
+    "consultPhone": "0730-8809001",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10543",
+      "schoolName": "湖南理工大学",
+      "schoolTotalPlan": 1,
+      "schoolLocation": "湖南省岳阳市",
+      "consultPhone": "0730-8809001",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 1,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "人力资源管理",
+      "planCount": 1,
+      "durationYears": 4,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "4 年，5000 元/年",
+      "pdfPage": 189,
+      "bookPage": 139
+    }
+  ]
+}

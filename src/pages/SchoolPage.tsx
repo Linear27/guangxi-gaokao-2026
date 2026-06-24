@@ -6,35 +6,46 @@ import { SchoolSummary } from '../components/SchoolSummary'
 import { LoadingScreen } from '../App'
 import { loadAdmissionLines2025, loadSchoolPayload } from '../data/loadSiteData'
 import type { AdmissionLine, SchoolPayload } from '../types'
-import { admissionLineKey, batchNamesForPrograms, buildAdmissionLineIndex } from '../data/derive'
+import { admissionLineKey, batchNamesForPrograms, buildAdmissionLineIndex, isTrack, searchRoute } from '../data/derive'
 
 export function SchoolPage() {
-  const { schoolCode } = useParams()
+  const { schoolCode, track } = useParams()
+  const activeTrack = isTrack(track) ? track : null
   const [payload, setPayload] = useState<SchoolPayload | null>(null)
   const [admissionLines, setAdmissionLines] = useState<AdmissionLine[]>([])
   const [error, setError] = useState<string | null>(null)
   const [selectedBatch, setSelectedBatch] = useState(0)
 
   useEffect(() => {
-    if (!schoolCode) return
+    if (!schoolCode || !activeTrack) return
     let alive = true
     setPayload(null)
     setAdmissionLines([])
     setError(null)
     setSelectedBatch(0)
-    Promise.all([loadSchoolPayload(schoolCode), loadAdmissionLines2025()])
-      .then(([nextPayload, admissionLinesPayload]) => {
+    loadSchoolPayload(activeTrack, schoolCode)
+      .then((nextPayload) => {
         if (!alive) return
         setPayload(nextPayload)
-        setAdmissionLines(admissionLinesPayload.admissionLines)
       })
       .catch((loadError: unknown) => {
         if (alive) setError(loadError instanceof Error ? loadError.message : '院校数据加载失败')
       })
+
+    loadAdmissionLines2025(activeTrack)
+      .then((admissionLinesPayload) => {
+        if (alive) setAdmissionLines(admissionLinesPayload.admissionLines)
+      })
+      .catch((loadError: unknown) => {
+        if (alive) {
+          setError(loadError instanceof Error ? loadError.message : '2025 参考线加载失败')
+        }
+      })
+
     return () => {
       alive = false
     }
-  }, [schoolCode])
+  }, [activeTrack, schoolCode])
 
   const programs = useMemo(() => payload?.programs ?? [], [payload])
   const batchNames = useMemo(() => batchNamesForPrograms(programs), [programs])
@@ -50,8 +61,8 @@ export function SchoolPage() {
     }
   }, [admissionLineIndex, admissionLines.length, batchNames, programs])
 
-  if (!schoolCode) {
-    return <Navigate replace to="/search" />
+  if (!schoolCode || !activeTrack) {
+    return <Navigate replace to={searchRoute('physics')} />
   }
 
   if (error) return <Alert severity="error">{error}</Alert>
@@ -79,7 +90,7 @@ export function SchoolPage() {
         <Typography component="h2" variant="h2">
           {activeBatchName}
         </Typography>
-        <ProgramGrid admissionLineIndex={admissionLineIndex} programs={activePrograms} />
+        <ProgramGrid admissionLineIndex={admissionLineIndex} programs={activePrograms} track={activeTrack} />
       </Stack>
     </Stack>
   )

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "12621",
+    "schoolName": "广州华商学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-82666666",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12621",
+      "schoolName": "广州华商学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-82666666",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "小学教育(师范)",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 35000,
+      "campus": null,
+      "remarks": "师范类,4年,35000元/年,第一、二学年在肇庆校区就读，第三、四学年在广州校区就读",
+      "pdfPage": 251,
+      "bookPage": 201
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12621",
+      "schoolName": "广州华商学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-82666666",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "会计学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 34000,
+      "campus": null,
+      "remarks": "4 年,34000 元/年,第一、二学年在肇庆校区就读，第三、四学年在广州校区就读,培养会计师、注册会计师人才",
+      "pdfPage": 251,
+      "bookPage": 201
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "16412",
+    "schoolName": "香港科技大学(广州)",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-88339119、88339123",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科提前批其他三类",
+      "schoolCode": "16412",
+      "schoolName": "香港科技大学(广州)",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-88339119、88339123",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "人工智能(中外合作办学)",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 100000,
+      "campus": null,
+      "remarks": "4年,100000元/年,科技创新班；入学不分专业，大二结束在人工智能、数据科学与大数据技术、智能制造工程、材料科学与工程、机器人工程、微电子科学与工程、金融科技、新能源科学与工程中选择；本科毕业达到学术要求可继续深造；英文授课，外语不低于120分",
+      "pdfPage": 121,
+      "bookPage": 73,
+      "track": "physics"
+    },
+    {
+      "batchName": "本科提前批其他三类",
+      "schoolCode": "16412",
+      "schoolName": "香港科技大学(广州)",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-88339119、88339123",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "002",
+      "majorName": "人工智能(中外合作办学)",
+      "planCount": 3,
+      "durationYears": 4,
+      "tuitionPerYear": 50000,
+      "campus": null,
+      "remarks": "4年,50000元/年,领军人才班；入学不分专业，大二结束在人工智能、数据科学与大数据技术、智能制造工程、材料科学与工程、机器人工程、微电子科学与工程、金融科技、新能源科学与工程中选择；本科毕业达到学术要求可继续深造；英文授课，外语不低于120分",
+      "pdfPage": 121,
+      "bookPage": 73,
+      "track": "physics"
+    }
+  ]
+}

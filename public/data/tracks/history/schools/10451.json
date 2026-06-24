@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10451",
+    "schoolName": "鲁东大学",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "山东省烟台市",
+    "consultPhone": "0535-6672791",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10451",
+      "schoolName": "鲁东大学",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "山东省烟台市",
+      "consultPhone": "0535-6672791",
+      "majorGroupCode": "104",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "思想政治",
+      "majorCode": "023",
+      "majorName": "思想政治教育",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5280,
+      "campus": null,
+      "remarks": "师范类，4 年，5280 元/年",
+      "pdfPage": 179,
+      "bookPage": 129
+    }
+  ]
+}

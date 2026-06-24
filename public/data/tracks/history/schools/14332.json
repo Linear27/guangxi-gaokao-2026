@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14332",
+    "schoolName": "济南幼儿师范高等专科学校",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "山东省济南市",
+    "consultPhone": "0531-87207777",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14332",
+      "schoolName": "济南幼儿师范高等专科学校",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "山东省济南市",
+      "consultPhone": "0531-87207777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 10,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "学前教育",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "师范类，3 年，5500 元/年",
+      "pdfPage": 402,
+      "bookPage": 352
+    }
+  ]
+}

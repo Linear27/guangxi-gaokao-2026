@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11276",
+    "schoolName": "南京工程学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "江苏省南京市",
+    "consultPhone": "025-86118008",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11276",
+      "schoolName": "南京工程学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省南京市",
+      "consultPhone": "025-86118008",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "市场营销",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5200,
+      "campus": null,
+      "remarks": "4 年，5200 元/年",
+      "pdfPage": 229,
+      "bookPage": 179
+    },
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "11276",
+      "schoolName": "南京工程学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省南京市",
+      "consultPhone": "025-86118008",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "物流管理",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 5200,
+      "campus": null,
+      "remarks": "4 年，5200 元/年",
+      "pdfPage": 229,
+      "bookPage": 179
+    }
+  ]
+}

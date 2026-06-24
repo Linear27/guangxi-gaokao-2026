@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13045",
+    "schoolName": "湖南石油化工职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "湖南省岳阳市",
+    "consultPhone": "0730-3066602",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13045",
+      "schoolName": "湖南石油化工职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "湖南省岳阳市",
+      "consultPhone": "0730-3066602",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "石油化工技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5060,
+      "campus": null,
+      "remarks": "3 年,5060 元/年",
+      "pdfPage": 359,
+      "bookPage": 309
+    }
+  ]
+}

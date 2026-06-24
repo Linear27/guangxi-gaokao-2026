@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13735",
+    "schoolName": "重庆水利电力职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "重庆市",
+    "consultPhone": "023-49810782",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13735",
+      "schoolName": "重庆水利电力职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-49810782",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "电力系统自动化技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 7128,
+      "campus": null,
+      "remarks": "3年, 7128 元/年",
+      "pdfPage": 370,
+      "bookPage": 320
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13735",
+      "schoolName": "重庆水利电力职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "重庆市",
+      "consultPhone": "023-49810782",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "水利水电建筑工程",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3年, 6600 元/年",
+      "pdfPage": 370,
+      "bookPage": 320
+    }
+  ]
+}

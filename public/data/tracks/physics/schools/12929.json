@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12929",
+    "schoolName": "江西司法警官职业学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "江西省南昌市",
+    "consultPhone": "0791-83875325",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12929",
+      "schoolName": "江西司法警官职业学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-83875325",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "治安管理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 613,
+      "bookPage": 565,
+      "track": "physics"
+    }
+  ]
+}

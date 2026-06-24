@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "13426",
+    "schoolName": "江西生物科技职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "江西省南昌市",
+    "consultPhone": "0791-85739800",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13426",
+      "schoolName": "江西生物科技职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-85739800",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "宠物医疗技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 364,
+      "bookPage": 314
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13426",
+      "schoolName": "江西生物科技职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "江西省南昌市",
+      "consultPhone": "0791-85739800",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "大数据与会计",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 364,
+      "bookPage": 314
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14135",
+    "schoolName": "合肥共达职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "安徽省合肥市",
+    "consultPhone": "0551-62720255",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14135",
+      "schoolName": "合肥共达职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-62720255",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "电梯工程技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 9800,
+      "campus": null,
+      "remarks": "3 年,9800 元/年",
+      "pdfPage": 659,
+      "bookPage": 611,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14135",
+      "schoolName": "合肥共达职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "安徽省合肥市",
+      "consultPhone": "0551-62720255",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "004",
+      "majorName": "大数据技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 9800,
+      "campus": null,
+      "remarks": "3 年,9800 元/年",
+      "pdfPage": 659,
+      "bookPage": 611,
+      "track": "physics"
+    }
+  ]
+}

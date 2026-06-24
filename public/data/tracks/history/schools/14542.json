@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14542",
+    "schoolName": "江苏财会职业学院",
+    "schoolTotalPlan": 4,
+    "schoolLocation": "江苏省连云港市",
+    "consultPhone": "0518-85899773",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14542",
+      "schoolName": "江苏财会职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省连云港市",
+      "consultPhone": "0518-85899773",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "软件技术",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5300,
+      "campus": null,
+      "remarks": "3 年,5300 元/年",
+      "pdfPage": 411,
+      "bookPage": 361
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14542",
+      "schoolName": "江苏财会职业学院",
+      "schoolTotalPlan": 4,
+      "schoolLocation": "江苏省连云港市",
+      "consultPhone": "0518-85899773",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 4,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "统计与会计核算",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 4700,
+      "campus": null,
+      "remarks": "3 年, 4700 元/年",
+      "pdfPage": 411,
+      "bookPage": 361
+    }
+  ]
+}

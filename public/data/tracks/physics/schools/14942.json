@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "14942",
+    "schoolName": "大湾区大学",
+    "schoolTotalPlan": 15,
+    "schoolLocation": "广东省东莞市",
+    "consultPhone": "0769-22898749",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "本科普通批",
+      "schoolCode": "14942",
+      "schoolName": "大湾区大学",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "广东省东莞市",
+      "consultPhone": "0769-22898749",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 15,
+      "firstSubject": "物理",
+      "secondSubject": "化学",
+      "majorCode": "001",
+      "majorName": "计算机科学与技术",
+      "planCount": 15,
+      "durationYears": 4,
+      "tuitionPerYear": 5190,
+      "campus": null,
+      "remarks": "4 年,5190 元/年,入学不分专业,大二开学前自选专业,可选专业:数学与应用数学、物理学、材料科学与工程、计算机科学与技术、工业工程、智能计算、人工智能、通信工程、未来机器人、光电信息科学与工程、电子信息材料",
+      "pdfPage": 530,
+      "bookPage": 482,
+      "track": "physics"
+    }
+  ]
+}

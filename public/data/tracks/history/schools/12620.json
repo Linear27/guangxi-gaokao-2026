@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12620",
+    "schoolName": "广东外语外贸大学南国商学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "广东省广州市",
+    "consultPhone": "020-22205021",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "12620",
+      "schoolName": "广东外语外贸大学南国商学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "广东省广州市",
+      "consultPhone": "020-22205021",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "汉语言文学",
+      "planCount": 2,
+      "durationYears": 4,
+      "tuitionPerYear": 34500,
+      "campus": null,
+      "remarks": "4 年,34500 元/年",
+      "pdfPage": 251,
+      "bookPage": 201
+    }
+  ]
+}

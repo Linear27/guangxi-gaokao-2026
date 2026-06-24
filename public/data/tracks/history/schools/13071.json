@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13071",
+    "schoolName": "河北交通职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "河北省石家庄市",
+    "consultPhone": "0311-85835777",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13071",
+      "schoolName": "河北交通职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "河北省石家庄市",
+      "consultPhone": "0311-85835777",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "现代物流管理",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年，5000 元/年",
+      "pdfPage": 359,
+      "bookPage": 309
+    }
+  ]
+}

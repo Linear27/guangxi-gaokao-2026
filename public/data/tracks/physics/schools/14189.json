@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14189",
+    "schoolName": "辽宁建筑职业学院",
+    "schoolTotalPlan": 10,
+    "schoolLocation": "辽宁省辽阳市",
+    "consultPhone": "0419-2307251",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14189",
+      "schoolName": "辽宁建筑职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "辽宁省辽阳市",
+      "consultPhone": "0419-2307251",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "008",
+      "majorName": "建筑电气工程技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3年，5000元/年，在辽阳市办学",
+      "pdfPage": 662,
+      "bookPage": 614,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14189",
+      "schoolName": "辽宁建筑职业学院",
+      "schoolTotalPlan": 10,
+      "schoolLocation": "辽宁省辽阳市",
+      "consultPhone": "0419-2307251",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 10,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "009",
+      "majorName": "道路与桥梁工程技术",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3年,5000元/年,在辽阳市办学",
+      "pdfPage": 662,
+      "bookPage": 614,
+      "track": "physics"
+    }
+  ]
+}

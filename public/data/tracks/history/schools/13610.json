@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "13610",
+    "schoolName": "辽宁何氏医学院",
+    "schoolTotalPlan": 3,
+    "schoolLocation": "辽宁省沈阳市",
+    "consultPhone": "024-88053145",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "13610",
+      "schoolName": "辽宁何氏医学院",
+      "schoolTotalPlan": 3,
+      "schoolLocation": "辽宁省沈阳市",
+      "consultPhone": "024-88053145",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 3,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "011",
+      "majorName": "护理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 16000,
+      "campus": null,
+      "remarks": "3 年,16000 元/年,不招色盲、色弱考生",
+      "pdfPage": 366,
+      "bookPage": 316
+    }
+  ]
+}

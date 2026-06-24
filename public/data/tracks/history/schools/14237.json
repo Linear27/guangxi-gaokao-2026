@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14237",
+    "schoolName": "重庆电讯职业学院",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "重庆市",
+    "consultPhone": "16623669666",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14237",
+      "schoolName": "重庆电讯职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "重庆市",
+      "consultPhone": "16623669666",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "食品智能加工技术",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 12000,
+      "campus": null,
+      "remarks": "3 年，12000 元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14237",
+      "schoolName": "重庆电讯职业学院",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "重庆市",
+      "consultPhone": "16623669666",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "民航运输服务",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 11800,
+      "campus": null,
+      "remarks": "3 年，11800 元/年",
+      "pdfPage": 396,
+      "bookPage": 346
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14257",
+    "schoolName": "厦门安防科技职业学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "福建省厦门市",
+    "consultPhone": "0592-7762777",
+    "programCount": 2,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14257",
+      "schoolName": "厦门安防科技职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省厦门市",
+      "consultPhone": "0592-7762777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "建筑消防技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 10800,
+      "campus": null,
+      "remarks": "3 年,10800 元/年",
+      "pdfPage": 666,
+      "bookPage": 618,
+      "track": "physics"
+    },
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "14257",
+      "schoolName": "厦门安防科技职业学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "福建省厦门市",
+      "consultPhone": "0592-7762777",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 2,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "电子信息工程技术",
+      "planCount": 1,
+      "durationYears": 3,
+      "tuitionPerYear": 11800,
+      "campus": null,
+      "remarks": "3 年,11800 元/年",
+      "pdfPage": 666,
+      "bookPage": 618,
+      "track": "physics"
+    }
+  ]
+}

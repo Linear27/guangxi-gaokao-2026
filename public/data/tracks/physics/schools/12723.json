@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12723",
+    "schoolName": "天津警察学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "天津市",
+    "consultPhone": "022-59561143",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12723",
+      "schoolName": "天津警察学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "天津市",
+      "consultPhone": "022-59561143",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "信息安全技术应用",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 5500,
+      "campus": null,
+      "remarks": "3 年,5500 元/年",
+      "pdfPage": 602,
+      "bookPage": 554,
+      "track": "physics"
+    }
+  ]
+}

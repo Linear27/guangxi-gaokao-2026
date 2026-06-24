@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12773",
+    "schoolName": "秦皇岛职业技术学院",
+    "schoolTotalPlan": 2,
+    "schoolLocation": "河北省秦皇岛市",
+    "consultPhone": "0335-5926553、5926611、5926733",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "12773",
+      "schoolName": "秦皇岛职业技术学院",
+      "schoolTotalPlan": 2,
+      "schoolLocation": "河北省秦皇岛市",
+      "consultPhone": "0335-5926553、5926611、5926733",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 2,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "大数据与审计",
+      "planCount": 2,
+      "durationYears": 3,
+      "tuitionPerYear": 5000,
+      "campus": null,
+      "remarks": "3 年,5000 元/年",
+      "pdfPage": 347,
+      "bookPage": 297
+    }
+  ]
+}

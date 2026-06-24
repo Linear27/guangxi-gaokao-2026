@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "12956",
+    "schoolName": "揭阳职业技术学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "广东省揭阳市",
+    "consultPhone": "0663-8859905",
+    "programCount": 1,
+    "track": "physics"
+  },
+  "programs": [
+    {
+      "batchName": "高职高专普通批",
+      "schoolCode": "12956",
+      "schoolName": "揭阳职业技术学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "广东省揭阳市",
+      "consultPhone": "0663-8859905",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 5,
+      "firstSubject": "物理",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "宝玉石鉴定与加工",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6410,
+      "campus": null,
+      "remarks": "3 年,6410 元/年",
+      "pdfPage": 614,
+      "bookPage": 566,
+      "track": "physics"
+    }
+  ]
+}

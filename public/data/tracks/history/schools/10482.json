@@ -1,0 +1,35 @@
+{
+  "school": {
+    "schoolCode": "10482",
+    "schoolName": "洛阳师范学院",
+    "schoolTotalPlan": 5,
+    "schoolLocation": "河南省洛阳市",
+    "consultPhone": "0379-68618104",
+    "programCount": 1,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "本科普通批",
+      "schoolCode": "10482",
+      "schoolName": "洛阳师范学院",
+      "schoolTotalPlan": 5,
+      "schoolLocation": "河南省洛阳市",
+      "consultPhone": "0379-68618104",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 5,
+      "firstSubject": "历史",
+      "secondSubject": "思想政治",
+      "majorCode": "011",
+      "majorName": "戏剧影视文学",
+      "planCount": 5,
+      "durationYears": 4,
+      "tuitionPerYear": 8000,
+      "campus": null,
+      "remarks": "4 年,8000 元/年",
+      "pdfPage": 182,
+      "bookPage": 132
+    }
+  ]
+}

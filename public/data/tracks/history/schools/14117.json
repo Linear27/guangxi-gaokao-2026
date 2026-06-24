@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "14117",
+    "schoolName": "漳州卫生职业学院",
+    "schoolTotalPlan": 15,
+    "schoolLocation": "福建省漳州市",
+    "consultPhone": "0596-2559550、2559551",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14117",
+      "schoolName": "漳州卫生职业学院",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "福建省漳州市",
+      "consultPhone": "0596-2559550、2559551",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 15,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "001",
+      "majorName": "护理",
+      "planCount": 10,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3 年,6600 元/年,不招色盲、色弱考生",
+      "pdfPage": 389,
+      "bookPage": 339
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "14117",
+      "schoolName": "漳州卫生职业学院",
+      "schoolTotalPlan": 15,
+      "schoolLocation": "福建省漳州市",
+      "consultPhone": "0596-2559550、2559551",
+      "majorGroupCode": "101",
+      "majorGroupPlan": 15,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "针灸推拿",
+      "planCount": 5,
+      "durationYears": 3,
+      "tuitionPerYear": 6600,
+      "campus": null,
+      "remarks": "3 年,6600 元/年,不招色盲、色弱考生",
+      "pdfPage": 389,
+      "bookPage": 339
+    }
+  ]
+}

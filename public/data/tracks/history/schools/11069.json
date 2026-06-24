@@ -1,0 +1,57 @@
+{
+  "school": {
+    "schoolCode": "11069",
+    "schoolName": "开封大学",
+    "schoolTotalPlan": 6,
+    "schoolLocation": "河南省开封市",
+    "consultPhone": "0371-23655001",
+    "programCount": 2,
+    "track": "history"
+  },
+  "programs": [
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11069",
+      "schoolName": "开封大学",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河南省开封市",
+      "consultPhone": "0371-23655001",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "002",
+      "majorName": "大数据与会计",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 3700,
+      "campus": null,
+      "remarks": "3 年,3700 元/年",
+      "pdfPage": 320,
+      "bookPage": 270
+    },
+    {
+      "track": "history",
+      "batchName": "高职高专普通批",
+      "schoolCode": "11069",
+      "schoolName": "开封大学",
+      "schoolTotalPlan": 6,
+      "schoolLocation": "河南省开封市",
+      "consultPhone": "0371-23655001",
+      "majorGroupCode": "102",
+      "majorGroupPlan": 6,
+      "firstSubject": "历史",
+      "secondSubject": "不限",
+      "majorCode": "003",
+      "majorName": "旅游管理",
+      "planCount": 3,
+      "durationYears": 3,
+      "tuitionPerYear": 3700,
+      "campus": null,
+      "remarks": "3 年，3700 元/年",
+      "pdfPage": 320,
+      "bookPage": 270
+    }
+  ]
+}
